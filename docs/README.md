@@ -1,7 +1,7 @@
 # Semester oversigt
 
 ### [Praktisk info om 3. semester](Praktisk.md)
-[Wiki pages to find techical solutions and more for the whole semester]()
+[Wiki pages to find techical solutions and more for the whole semester](https://github.com/datsoftlyngby/dat3sem2018Fall/wiki)
 [Gruppe vejledninger kommer til at være i dette regneark]().
 [Gruppe review planer linkes i dette ark]().
 
