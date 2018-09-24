@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>REST / JAVASCRIPT - Persons</title>
+        <style>
+            table, td {border: solid 1px black;}
+        </style>
+        <script>
+            var persons;
+
+            window.addEventListener("load", function ()
+            {
+                PersonsRefresh();
+
+                document.getElementById("PersonsRefresh").addEventListener("click", function ()
+                {
+                    PersonsRefresh();
+                });
+
+                document.getElementById("PersonAdd").addEventListener("click", function ()
+                {
+                    PersonAdd();
+                });
+
+                document.getElementById("PersonDelete").addEventListener("click", function ()
+                {
+                    PersonDelete();
+                });
+
+                document.getElementById("PersonGet").addEventListener("click", function ()
+                {
+                    PersonGet();
+                });
+            });
+
+            function PersonsRefresh()
+            {
+                var rows = "";
+                document.getElementById("rows").innerHTML = "";
+                fetch('api/person')
+                .then(function (response) {
+                    if (response.status !== 200)
+                    {
+                        return;
+                    }
+
+                    response.json()
+                    .then(function (data)
+                    {
+                        persons = data;
+                        data.forEach(function (person, i)
+                        {
+                            rows += '<tr><td>' + person.firstName + '</td><td>' + person.lastName + '</td><td>' + person.phoneNumber + '</td><td><input type="button" onclick="PersonDelete(' + i + ')" value="Delete" /></td></tr>';
+                        });
+                        document.getElementById("rows").innerHTML = rows;
+                    })
+                    .catch(function (err)
+                    {
+                        console.log('Fetch Error:', err);
+                    });
+                });
+            }
+
+            function PersonAdd()
+            {
+                var firstName = document.getElementById("PersonFirstName").value;
+                var lastName = document.getElementById("PersonLastName").value;
+                var phoneNumber = document.getElementById("PersonPhoneNumber").value;
+
+                var person = "{ firstName: " + firstName + ", lastName: " + lastName + ", phoneNumber: " + phoneNumber + " }";
+
+                fetch("api/person", {
+                    method: "post",
+                    headers: {
+                        "Content-type": "application/json"
+                    },
+                    body: person
+                })
+                .then(function (data) {
+                    //Success
+                    //document.getElementById("rows").innerHTML += '<tr><td>' + firstName + '</td><td>' + lastName + '</td><td>' + phoneNumber + '</td></tr>';
+                    PersonsRefresh();
+                })
+                .catch(function (error) {
+                    //Fail
+                });
+            }
+
+            function PersonDelete(i)
+            {
+                fetch("api/person", {
+                    method: "delete",
+                    headers: {
+                        "Content-type": "application/json"
+                    },
+                    body: JSON.stringify(persons[i])
+                })
+                .then(function (data) {
+                    //Success
+                    PersonsRefresh();
+                })
+                .catch(function (error) {
+                    //Fail
+                });
+            }
+
+            function PersonGet()
+            {
+                var firstName = document.getElementById("PersonFirstName").value;
+                var lastName = document.getElementById("PersonLastName").value;
+                var phoneNumber = document.getElementById("PersonPhoneNumber").value;
+
+                fetch("api/person/" + firstName + "/" + lastName, {
+                    method: "get",
+                    headers: {
+                        "Content-type": "application/json"
+                    }
+                })
+                .then(function (response) {
+                    if (response.status !== 200)
+                    {
+                        console.log(response.status);
+                        
+                        response.json()
+                        .then(function (json)
+                        {
+                            alert(json.message);
+                        })
+                    }
+                    else
+                    {
+                        response.json()
+                        .then(function (json)
+                        {
+                            alert(json.firstName);
+                        })
+                        .catch(function (err)
+                        {
+                            console.log('Fetch Error:', err);
+                        });
+                    }
+                });
+            }
+        </script>
+    </head>
+    <body>
+        <h1>REST / JAVASCRIPT - Persons</h1>
+
+        <table id="TablePersons">
+            <thead>
+                <tr><td>First name</td><td>Last name</td><td>Phone number</td><td></td></tr>
+            </thead>
+            <tbody id="rows"></tbody>
+        </table>
+
+        <input id="PersonsRefresh" type="button" value="Persons refresh" /><br />        
+        <label>PersonFirstName</label><input id="PersonFirstName" type="text" /><br />
+        <label>PersonLastName</label><input id="PersonLastName" type="text" /><br />
+        <label>PersonPhoneNumber</label><input id="PersonPhoneNumber" type="text" /><br />
+
+        <input id="PersonAdd" type="button" value="Person add" /><br />
+        <input id="PersonEdit" type="button" value="Person edit" /><br />
+        <input id="PersonDelete" type="button" value="Person delete" /><br />
+        <input id="PersonGet" type="button" value="Person get" /><br />
+
+        <a href="index.html">back</a>
+    </body>
+</html>
