@@ -15,14 +15,14 @@
 |      Uge | Dato        | Emne                                     |
 | -------: | :---------- | :--------------------------------------- |
 |          | **Module 1** | Netværk & tråde |
-|        1 | 20-08-2018  | [Threads](Module1/Week1/README.md) |
-|        2 | 27-08-2018  | [Network and HTTP](Module1/Week2/README.md)                    |
-|        3 | 03-09-2018  | [JS and CA1](Module1/Week3/README.md)                    |
+|        1 | 20-08-2018  | [Threads](Modul1/Week1/README.md) |
+|        2 | 27-08-2018  | [Network and HTTP](Modul1/Week2/README.md)                    |
+|        3 | 03-09-2018  | [JS and CA1](Modul1/Week3/README.md)                    |
 |          | **Module 2** | **Webstack**                             |
-|        4 | 10-09-2018  | [ORM with JPA](Module2/Week1/README.md) |
-|        5 | 17-09-2018  | [Rest webservices with JAX-RS](Module2/Week2/README.md) |
-|        6 | 24-09-2018  | [Javascript](Module2/Week3/README.md)  |
-|        7 | 01-10-2018  | [CA2](Module2/Week4/README.md)|
+|        4 | 10-09-2018  | [ORM with JPA](Modul2/Week1/README.md) |
+|        5 | 17-09-2018  | [Rest webservices with JAX-RS](Modul2/Week2/README.md) |
+|        6 | 24-09-2018  | [Javascript](Modul2/Week3/README.md)  |
+|        7 | 01-10-2018  | [CA2](Modul2/Week4/README.md)|
 |          | **Module 3** | **System Development**     |
 |		  8 | 08-10-2018 |  |
 |		  9 | 15-10-2018 | **Efterårsferie**|
