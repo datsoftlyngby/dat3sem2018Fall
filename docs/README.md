@@ -1,7 +1,7 @@
 # Semester oversigt
 
 ### [Praktisk info om 3. semester](Praktisk.md)
-
+[Wiki pages to find techical solutions and more for the whole semester]()
 [Gruppe vejledninger kommer til at være i dette regneark]().
 [Gruppe review planer linkes i dette ark]().
 
