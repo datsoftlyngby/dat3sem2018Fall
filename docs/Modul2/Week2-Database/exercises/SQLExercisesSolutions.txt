@@ -1,0 +1,201 @@
+SELECT (ONE)
+/* 1 */
+select *
+from customers
+where country = 'France';
+
+/* 2 */
+select firstName, lastName
+from employees
+where jobTitle = 'Sales Rep';
+
+/* 3 */
+select productName, productDescription
+from products
+where MSRP between 50 and 100;
+
+/* 4 */
+select customerNumber
+from orders
+where status = 'Cancelled';
+
+/* 5 */
+select productLine, productVendor
+from products
+where productScale = '1:18';
+
+ORDER BY
+/* 1 */
+select *
+from products
+where productLine = 'Motorcycles'
+order by productName;
+
+/* 2 */
+select *
+from products
+where quantityInStock < 1000
+order by quantityInStock;
+
+/* 3 */
+select customerName, contactFirstName, contactLastName
+from customers
+where country = 'Norway'
+order by contactFirstName;
+
+/* 3 */
+select customerName, concat(contactFirstName, ' ', contactLastName) as contactName
+from customers
+where country = 'Norway'
+order by contactFirstName;
+
+FUNCTIONS
+/* 1 */
+select count(*)
+from customers
+where country = 'Germany';
+
+/* 2 */
+select avg(buyPrice)
+from products
+where productLine = 'Classic Cars';
+
+/* 2 */
+select avg(MSRP)
+from products
+where productLine = 'Classic Cars';
+
+/* 3 */
+select max(buyPrice)
+from products
+where productVendor = 'Autoart Studio Design';
+
+/* 4 */
+select count(distinct country)
+from customers;
+
+/* 5 */ 
+select sum(quantityInStock)
+from products
+where productScale = '1:12';
+
+/* 6 */
+select max(MSRP-buyPrice)
+from products;
+
+GROUP BY
+/* 1 */
+select productName, max(MSRP-buyPrice) as maximum 
+from products 
+group by MSRP-buyPrice desc limit 1;
+
+/* 1 */
+select *, (MSRP-buyPrice) as maxProfit 
+from products 
+where (MSRP-buyPrice) = (select max(MSRP-buyPrice) from products);
+
+/* 2 */
+select productVendor, count(productCode)
+from products
+group by productVendor;
+
+/* 3 */
+select productScale, avg( (MSRP - buyPrice)/buyPrice ) * 100 as pctProfit
+from products
+group by productScale;
+
+/* 4 */
+select status, count(*)
+from orders
+group by status;
+
+/* 5 */
+select customerNumber, count(*)
+from orders
+group by customerNumber;
+
+SELECT (MANY)
+/* 1 */
+select customerName, firstName, lastName
+from customers, employees
+where employees.employeeNumber = customers.salesRepEmployeeNumber;
+
+/* 2 */
+select customerName, firstName, lastName
+from customers, employees
+where employeeNumber = salesRepEmployeeNumber and country = 'Italy';
+        
+/* 3 */
+select distinct concat(firstName, ' ', lastName) as Name, country
+from customers, employees
+where employeeNumber = salesRepEmployeeNumber;
+
+/* 3 */
+select distinct country, firstName 
+from customers 
+inner join employees on salesRepEmployeeNumber = employeeNumber; 
+
+UPDATE
+/* 1 */
+update employees
+set lastName = 'Smith'
+where employeeNumber = 1165;
+
+/* 2 */ 
+update customers
+set contactFirstName = "Dr. Roland"
+where customerNumber = 128;
+
+/* 3 */
+update customers
+set salesRepEmployeeNumber=1702
+where country = 'Spain';
+
+/* 4 */
+update products
+set MSRP = MSRP*1.1
+where productLine = 'Motorcycles';
+
+/* 5 */
+update customers
+set addressLine2 = ''
+where addressLine2 is null;
+
+INSERT
+/* 1 */
+insert into productlines
+values ('Bicycle', 'Great cycles from yesteryears', null, null);
+
+/* 2 */
+insert into offices
+values ( 8, 'Copenhagen', '62 72 62 73', 'Samlergade 12', null, null, 'Denmark', '1213', '');
+
+/* 3 */
+insert into products
+values ('S10_0001', '1940 Wilier Rare Classic Roadbike', 'Bicycle', '1:10', 
+'Vintage cycles', 'Campagnolo Cambio Corsa Shifting. Rare early frame',
+        7, 23.17, 44.98),
+        ('S10_002', '1953 Woodsie bike', 'Bicycle', '1:10',
+        'Vintage cycles', 'Model of John Finley Scotts Woodsie Bike build on a Schwinn World diamond frame',
+        12, 31.12, 55.12);
+
+DELETE
+/* 1 */
+delete from payments where paymentDate < '2003-06-18';
+
+/* 2 */
+delete customers where customerNumber < 150;
+
+JOIN
+/* 1 */
+select orderNumber, customerName, orderDate
+from orders
+inner join customers
+on orders.customerNumber=customers.customerNumber;
+
+/* 2 */
+select customerName
+from orders
+right join customers
+on orders.customerNumber=customers.customerNumber
+where orderNumber is null;

@@ -1,0 +1,5 @@
+theme: jekyll-theme-cayman
+title: Dat 2. sem 2018 efterår
+markdown: kramdown
+kramdown:
+   auto_ids: true
