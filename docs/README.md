@@ -1,22 +1,16 @@
 # Semester oversigt
 
 ### [Praktisk info om 3. semester](Praktisk.md)
-[Wiki pages to find techical solutions and more for the whole semester](https://github.com/datsoftlyngby/dat3sem2018Fall/wiki)
-[Gruppe vejledninger kommer til at være i dette regneark]().
-[Gruppe review planer linkes i dette ark]().
+[Wiki pages to find techical solutions and more for the whole semester](https://github.com/datsoftlyngby/dat3sem2018Fall/wiki)  
+
+[Gruppe vejledninger kommer til at være i dette regneark]()  
+
+[Gruppe review planer linkes i dette ark]()  
 
 [Studypoints]()
 
 #### Skema i kort udgave:<br>
-Mandag 8:30 - Ugeroversigt og undervisning, <br>
-Onsdag og Fredag 12:15: vejledning ([Se detail skema](https://docs.google.com/spreadsheets/d/1dimfKx2nP6wmzixonlXTLQn6IiLEhVQv8dgcOZC3V3k/edit?usp=sharing)).<br> 
-Tirsdag 12:30 og Torsdag 8:30 - Tutor hjælp
 
-[Skema med lokaler mv.]()
-
-
-
-## Plan
 
 |      Uge | Dato        | Emne                                     |
 | -------: | :---------- | :--------------------------------------- |
