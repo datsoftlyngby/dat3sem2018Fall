@@ -1,5 +1,5 @@
 # Dat 3. sem 2018 efterår
-De studerende kan se det i [**"docs"** folderen]().
+De studerende kan se det i [**"docs"** folderen](/docs).
 
 ### Links
 Vores skema er på [google sheet](https://docs.google.com/spreadsheets/d/1i3DRKCIOco1Sksm1_b8LMj5QbHFoUQMhNHO_4_9eOw8/edit#gid=0)  
