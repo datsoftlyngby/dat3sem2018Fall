@@ -9,3 +9,6 @@ Præsentationsark [A](), [B](https://docs.google.com/spreadsheets/d/1m44DXpp-kcU
 
 ### Tutor
 Fredag eftermiddag.
+
+### WIKI
+[Wiki pages her](https://github.com/datsoftlyngby/dat3sem2018Fall/wiki)
