@@ -31,7 +31,7 @@ REST stands for: REpresentational State Transfer
 3. **Cacheability**
     - As on the World Wide Web, clients and intermediary routers etc. can cache responses. Responses must therefore, implicitly or explicitly, define themselves as cacheable or not to prevent clients from getting stale or inappropriate data in response to further requests. Well-managed caching partially or completely eliminates some client–server interactions, further improving scalability and performance
 4. **Layered system**
-    - A client cannot ordinarily tell whether it is connected directly to the end server, or to an intermediary along the way. Intermediary servers can improve system scalability by enabling load balancing and by providing shared caches. They can also enforce security policies.
+    - A client cannot ordinarily tell whether it is connected directly to the end server, or to an intermediary along the way. Intermediary servers can improve system scalability by enabling load balancing and by providing shared caches. They can also enforce security policies. A layered system is a system where each layer performs a specified functionality and know nothing about layers on top that uses this functionality.
 5. **Uniform interface**
   - The uniform interface constraint is fundamental to the design of any REST service. It simplifies and decouples the architecture, which enables each part to evolve independently. The four constraints for this uniform interface are
     - **Resource identification in requests**
