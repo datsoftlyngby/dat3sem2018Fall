@@ -28,8 +28,7 @@
 |		  9 | 15-10-2018 | **Efterårsferie**|
 |		  9 | 22-10-2018 | |
 |          | **Module 4** | **React**          |
-|       10 | 29-10-2018  | Basic react js |
-|       11 | 05-11-2018  | React Router + React native |
+|       10 | 29-10-2018  | [React week1 + Week2](Modul3/React/README.md) |
 |       12 | 12-11-2018  | [CA3]() |
 |          | **Module 5** | **Projekt**    |
 |       13 | 19-11-2018  | Project |
