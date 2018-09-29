@@ -45,7 +45,7 @@ JavaScript, and React this semester, will provide students with the background t
 ### Topics
 
 | Topic                                | Content                                  | Resource                          |
-| ------------------------------------ | ---------------------------------------- | :--------------------------------------- |
+| ------------------------------------ | ---------------------------------------- | -------------------------------- |
 | 1. SPA architecture                  | why do we need js frameworks?            | [Video: 52 mins](https://www.youtube.com/watch?v=vXjVFPosQHw)<br/>,          [Article](https://blog.poki.com/front-end-walkthrough-building-a-single-page-application-from-scratch-d47c35fdc830) |
 | 2. node and npm/yarn                 | Installation and use of node + yarn      | [video: 8 mins](https://www.youtube.com/watch?v=7n467QmiANM)<br/>,          [yarn improves on npm](https://scotch.io/tutorials/yarn-package-manager-an-improvement-over-npm#toc-installing-yarn) |
 | 3. ES6                               | classes, arrow notation, destructuring arrays and objects, template strings, let & const, babel light | [Video: watch 0:42.41](https://www.youtube.com/watch?v=hO7mzO83N1Q)<br/>,  [Simple ES6 tutorial](http://qnimate.com/post-series/ecmascript-6-complete-tutorial/) |
@@ -70,8 +70,8 @@ JavaScript, and React this semester, will provide students with the background t
 [Routing with parameters](exercises/RoutingWithParameters.md)  
 
 #### 2 important tutorial guides
-This week is build around Facebooks [tutorial docs here](https://reactjs.org/docs/hello-world.html)
-And Eggheads [video tutorials here](https://egghead.io/lessons/react-react-fundamentals-development-environment-setup).   
+1. [tutorial docs here](https://reactjs.org/docs/hello-world.html)
+2. [video tutorials here](https://egghead.io/lessons/react-react-fundamentals-development-environment-setup).   
 **Videos are great** if you use it for inspiration to immediately start coding - trying out the things from the video (Else they are mostly a **waste of time**).
 
 #### Further Readings
@@ -82,4 +82,3 @@ And Eggheads [video tutorials here](https://egghead.io/lessons/react-react-funda
 [About React](https://facebook.github.io/react/)
 [create-react-ap tutorial](https://medium.com/@diamondgfx/learning-react-with-create-react-app-part-1-a12e1833fdc)  
 [About Webpack for React](http://www.pro-react.com/materials/appendixA/)
-

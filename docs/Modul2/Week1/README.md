@@ -61,9 +61,13 @@ The following tutorial from netbeans, as well as a couple videos Christian made,
 - [Video JPA relationships](https://www.twitch.tv/videos/168939780)
 
 ## Exercises
-- [Day-1](https://docs.google.com/document/d/1-fWe3QOGluvS38f3iIPcZZbTxL-AfcynG6Hfpv4bc90/edit?usp=sharing)
-- [Day-2](https://docs.google.com/document/d/1JuoyPUqw45jKta9_pY21Go7lgR8ur-XVWBiZOxUpXPo/edit?usp=sharing), ( [Day-2 RED ONLY](https://docs.google.com/document/d/1u8Tr4R_5otLGQlr1KakSI3lwB2IYdUH7ZxpQvERiGY8/edit?usp=sharing) )
-- [Day-3](https://docs.google.com/document/d/1xY_bK3BvgFoE0A93M_7RFLeB0Pze1WRanqqBdDIZxoU/edit?usp=sharing)
-- [Friday](https://docs.google.com/document/d/10KNPpCFg0Fo7_R40RZwG7spq4g_idzjJYZNtuunilNY/edit?usp=sharing)
+- [Day-1](../../exercises/daily/JPA-1_basics.md)
+- [Day-2](../../exercises/dail/JPA-2_relationships.md)
+- [Day-3](../../exercises/daily/JPA-3_jpql.md)
+- [Exam prep 1](../../exercises/exprep_jpa1.md)
+- [Exam prep 2](../../exercises/exprep_jpql.md)
+
+#### Old versions ...
+[Day 1](https://docs.google.com/document/d/1-fWe3QOGluvS38f3iIPcZZbTxL-AfcynG6Hfpv4bc90/edit?usp=sharing)[Day-2](https://docs.google.com/document/d/1JuoyPUqw45jKta9_pY21Go7lgR8ur-XVWBiZOxUpXPo/edit?usp=sharing), [Day-2 RED ONLY](https://docs.google.com/document/d/1u8Tr4R_5otLGQlr1KakSI3lwB2IYdUH7ZxpQvERiGY8/edit?usp=sharing)- [Day-3](https://docs.google.com/document/d/1xY_bK3BvgFoE0A93M_7RFLeB0Pze1WRanqqBdDIZxoU/edit?usp=sharing) [Friday](https://docs.google.com/document/d/10KNPpCFg0Fo7_R40RZwG7spq4g_idzjJYZNtuunilNY/edit?usp=sharing)
 
 
