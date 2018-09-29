@@ -19,10 +19,9 @@ JavaScript, and React this semester, will provide students with the background t
  and many more. Some are libraries some are full grown frameworks
 
 ## Plan
+
 |Day|Do before class|Topic|Exercises|
-
 |-----------|---------|----|-------|
-
 |[Day 1](path/to/slide/here)| Take a look at [create_react_app quick](create_react_app.md)|SPA, <br/>[ES6 features](http://qnimate.com/post-series/ecmascript-6-complete-tutorial/),<br/> [create-react-app](https://github.com/facebookincubator/create-react-app#getting-started),<br/> [rendering](https://reactjs.org/docs/rendering-elements.html),<br/> [JSX](https://reactjs.org/docs/introducing-jsx.html),<br/> [Components and props](https://reactjs.org/docs/components-and-props.html)<br/>|[Day 1 exercise](https://docs.google.com/document/d/1mCDQgNCKxZwO6cx2FyhwK6-srgZCVVvYCTFGXglrhpg/edit?usp=sharing)   |
 |Day 2||[State](https://reactjs.org/docs/state-and-lifecycle.html),<br/> [Lifting state up](https://reactjs.org/docs/lifting-state-up.html), <br/> [Events](https://reactjs.org/docs/handling-events.html),<br/> [List and keys](https://reactjs.org/docs/lists-and-keys.html),<br/> [Forms](https://reactjs.org/docs/forms.html),<br/>[Controlled components](https://reactjs.org/docs/forms.html#controlled-components)<br/> |[Day 2 exercise](https://docs.google.com/document/d/1OGHsWR8gvubw4R64GBEQqkiPxZutxmWFsd7Ac5z0ygg/edit?usp=sharing)   |
 |Day 3|Look at this [jsonserver quick demo](jsonserver.md), AND <br/> [surge deploy](quick_deployment.md)| MobX light,<br/> AJAX fetch,<br/> Deployment,<br/> JSON server<br/>|[Day 3 exercise](https://docs.google.com/document/d/15oxKKJXSJ1uju8wmRJNXnSE2QuegfwL-Rm3dmtBOhfw/edit?usp=sharing)<br> AND / OR <br> [Day 4 exercise](https://docs.google.com/document/d/1cKgFbuaoCV3J001uxSFLe7iw6gfDOIhuQKGG0hfWze4/edit?usp=sharing)    |
@@ -44,8 +43,8 @@ JavaScript, and React this semester, will provide students with the background t
 
 
 ### Topics
-| Topic                                | Content                                  | Resource                          |
 
+| Topic                                | Content                                  | Resource                          |
 | ------------------------------------ | ---------------------------------------- | :--------------------------------------- |
 | 1. SPA architecture                  | why do we need js frameworks?            | [Video: 52 mins](https://www.youtube.com/watch?v=vXjVFPosQHw)<br/>,          [Article](https://blog.poki.com/front-end-walkthrough-building-a-single-page-application-from-scratch-d47c35fdc830) |
 | 2. node and npm/yarn                 | Installation and use of node + yarn      | [video: 8 mins](https://www.youtube.com/watch?v=7n467QmiANM)<br/>,          [yarn improves on npm](https://scotch.io/tutorials/yarn-package-manager-an-improvement-over-npm#toc-installing-yarn) |
