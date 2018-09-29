@@ -1,8 +1,8 @@
-# Week 8: React JS and Single Page Application (SPA)
+# Week 8 and 9: React JS and Single Page Application (SPA)
 
 ReactJS is a component based javascript library, that helps us write better and faster javascript applications in the frontend.
-### Business competences
 
+### Business competences
 Demands for skills related to JavaScript and Single Page Applications has increased over the last years 
 - [ref. it.jobindex.dk - JavaScript](https://it.jobindex.dk/jobsoegning?q=javascript&supid=1).
 - [ref. it.jobindex.dk - React]( https://it.jobindex.dk/jobsoegning/it?q=react).
@@ -20,8 +20,10 @@ JavaScript, and React this semester, will provide students with the background t
 
 ## Plan
 |Day|Do before class|Topic|Exercises|
+
 |-----------|---------|----|-------|
-|[Day 1](path/to/slide/here)|[create_react_app quick](create_react_app.md)|SPA, <br/>[ES6 features](http://qnimate.com/post-series/ecmascript-6-complete-tutorial/),<br/> [create-react-app](https://github.com/facebookincubator/create-react-app#getting-started),<br/> [rendering](https://reactjs.org/docs/rendering-elements.html),<br/> [JSX](https://reactjs.org/docs/introducing-jsx.html),<br/> [Components and props](https://reactjs.org/docs/components-and-props.html)<br/>|[Day 1 exercise](https://docs.google.com/document/d/1mCDQgNCKxZwO6cx2FyhwK6-srgZCVVvYCTFGXglrhpg/edit?usp=sharing)   |
+
+|[Day 1](path/to/slide/here)| Take a look at [create_react_app quick](create_react_app.md)|SPA, <br/>[ES6 features](http://qnimate.com/post-series/ecmascript-6-complete-tutorial/),<br/> [create-react-app](https://github.com/facebookincubator/create-react-app#getting-started),<br/> [rendering](https://reactjs.org/docs/rendering-elements.html),<br/> [JSX](https://reactjs.org/docs/introducing-jsx.html),<br/> [Components and props](https://reactjs.org/docs/components-and-props.html)<br/>|[Day 1 exercise](https://docs.google.com/document/d/1mCDQgNCKxZwO6cx2FyhwK6-srgZCVVvYCTFGXglrhpg/edit?usp=sharing)   |
 |Day 2||[State](https://reactjs.org/docs/state-and-lifecycle.html),<br/> [Lifting state up](https://reactjs.org/docs/lifting-state-up.html), <br/> [Events](https://reactjs.org/docs/handling-events.html),<br/> [List and keys](https://reactjs.org/docs/lists-and-keys.html),<br/> [Forms](https://reactjs.org/docs/forms.html),<br/>[Controlled components](https://reactjs.org/docs/forms.html#controlled-components)<br/> |[Day 2 exercise](https://docs.google.com/document/d/1OGHsWR8gvubw4R64GBEQqkiPxZutxmWFsd7Ac5z0ygg/edit?usp=sharing)   |
 |Day 3|Look at this [jsonserver quick demo](jsonserver.md), AND <br/> [surge deploy](quick_deployment.md)| MobX light,<br/> AJAX fetch,<br/> Deployment,<br/> JSON server<br/>|[Day 3 exercise](https://docs.google.com/document/d/15oxKKJXSJ1uju8wmRJNXnSE2QuegfwL-Rm3dmtBOhfw/edit?usp=sharing)<br> AND / OR <br> [Day 4 exercise](https://docs.google.com/document/d/1cKgFbuaoCV3J001uxSFLe7iw6gfDOIhuQKGG0hfWze4/edit?usp=sharing)    |
 |FRIDAY SP6|| Exercises |[SP exercise](https://docs.google.com/document/d/11s2j4S8jpg0X41ARuxC3jgkvD5ikKL8FOqoCBVNNspI/edit?usp=sharing)  |
@@ -42,7 +44,8 @@ JavaScript, and React this semester, will provide students with the background t
 
 
 ### Topics
-| Topic                                | Content                                  | Resource                                 |
+| Topic                                | Content                                  | Resource                          |
+
 | ------------------------------------ | ---------------------------------------- | :--------------------------------------- |
 | 1. SPA architecture                  | why do we need js frameworks?            | [Video: 52 mins](https://www.youtube.com/watch?v=vXjVFPosQHw)<br/>,          [Article](https://blog.poki.com/front-end-walkthrough-building-a-single-page-application-from-scratch-d47c35fdc830) |
 | 2. node and npm/yarn                 | Installation and use of node + yarn      | [video: 8 mins](https://www.youtube.com/watch?v=7n467QmiANM)<br/>,          [yarn improves on npm](https://scotch.io/tutorials/yarn-package-manager-an-improvement-over-npm#toc-installing-yarn) |
@@ -59,13 +62,18 @@ JavaScript, and React this semester, will provide students with the background t
 
 ![](exercises/Ex1/ExplanationForX1.png)
 
+#### Extra exercises
 
+[Used cars exercise part 1](exercises/UsedCarsEx1.md)  
+[Used cars exercise part 2](exercises/UsedCarsEx2.md)  
+[Used cars exercise part 3](exercises/UsedCarsEx3.md)  
+[Used cars exercise part 4](exercises/UsedCarsEx4-backend.md)  
+[Routing with parameters](exercises/RoutingWithParameters.md)  
 
 #### 2 important tutorial guides
-
 This week is build around Facebooks [tutorial docs here](https://reactjs.org/docs/hello-world.html)
-
-And Eggheads [video tutorials here](https://egghead.io/lessons/react-react-fundamentals-development-environment-setup). **Videos are great** if you use it for inspiration to immediately start coding - trying out the things from the video (Else they are mostly a **waste of time**).
+And Eggheads [video tutorials here](https://egghead.io/lessons/react-react-fundamentals-development-environment-setup).   
+**Videos are great** if you use it for inspiration to immediately start coding - trying out the things from the video (Else they are mostly a **waste of time**).
 
 #### Further Readings
 
@@ -76,10 +84,3 @@ And Eggheads [video tutorials here](https://egghead.io/lessons/react-react-funda
 [create-react-ap tutorial](https://medium.com/@diamondgfx/learning-react-with-create-react-app-part-1-a12e1833fdc)  
 [About Webpack for React](http://www.pro-react.com/materials/appendixA/)
 
-#### Extra exercises
-
-[Used cars exercise part 1](Ex1/UsedCarsEx1.md)  
-[Used cars exercise part 2](Ex1/UsedCarsEx2.md)  
-[Used cars exercise part 3](Ex1/UsedCarsEx3.md)  
-[Used cars exercise part 4](Ex1/UsedCarsEx4-backend.md)  
-[Routing with parameters](Ex1/RoutingWithParameters.md)  
