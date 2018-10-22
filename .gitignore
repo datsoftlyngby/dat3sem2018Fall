@@ -62,40 +62,6 @@ Backup of *.doc*
 **/*.xlk
 
 # PowerPoint
-**/*.ppt*
+**/
 
-# Visio autosave files
-**/*.~vsd*
-
-### NetBeans ###
-**/nbproject/private/
-**/build/
-**/nbbuild/
-**/dist/
-**/nbdist/
-**/.nb-gradle/
-
-### Windows ###
-# Windows thumbnail cache files
-**/Thumbs.db
-**/ehthumbs.db
-**/ehthumbs_vista.db
-
-# Dump file
-**/*.stackdump
-
-# Folder config file
-**/[Dd]esktop.ini
-
-# Recycle Bin used on file shares
-**/$RECYCLE.BIN/
-
-# Windows Installer files
-**/*.cab
-**/*.msi
-**/*.msix
-**/*.msm
-**/*.msp
-
-# Windows shortcuts
 **/*.lnk

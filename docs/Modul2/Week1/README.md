@@ -47,10 +47,6 @@ Read in this [section](https://en.wikibooks.org/wiki/Java_Persistence/Querying) 
 * 1.6 [Common Queries](https://en.wikibooks.org/wiki/Java_Persistence/Querying#Common_Queries) Skim all sections to see what you can do. You will need this for the exercises.
 * for your reference [JPQL](https://en.wikibooks.org/wiki/Java_Persistence/JPQL) This is an extra ?? section in the wiki, which is kind of a complete referende to JPQL
 
-### Day 4 (Friday) - Friday Exercises
-
-[Friday](https://docs.google.com/document/d/10KNPpCFg0Fo7_R40RZwG7spq4g_idzjJYZNtuunilNY/edit?usp=sharing)
-
 ### Extra Material for this week
 
 The following tutorial from netbeans, as well as a couple videos Christian made, may help you through the JPA setup process if you forget it after the lecture. These are not useful learning resources. I recommend only using them if you forget how to setup the persistence unit, and do table/class generation with JPA.

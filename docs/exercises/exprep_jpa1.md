@@ -19,21 +19,25 @@ its order lines.
 
 1)  Examine and understand the diagram.  ![](media/order_eer.png)
 
-2)  Create a Maven Java Application with NetBeans, and use Object Relational Mapping (JPA) to implement the OO classes and the corresponding Database Tables [see hint](#####hint-1).
+2. Get started
+- Create a Maven Java Application with NetBeans, and 
+- create the database tables
+- use Object Relational Mapping (JPA) to implement the corresponding OO classes.
 
-3)  Create a façade and implement as many of the methods below as you have time for (not necessarily in the given order):
+3. Create a façade implement as many of the methods below as you have time for (not necessarily in the given order):
 
--   Create a Customer
+-   Create a Customer (insert a few customers) 
 -   Find a Customer
 -   Get all Customers
--   Create an Order
+-   Create an Order (insert a few orders)
 -   Add an Order to a Customer
 -   Find an Order
--   Create an ItemType
--   Create an OrderLine
--   Find the total price of an order
+-   Create an ItemType (insert a few ItemTypes)
+-   Create an OrderLine (insert a few orderLines)
+-   Find all orders by a specific customer (preferably use jpql)
+-   Find the total price of an order (preferably use jpql )
+- Use jpql's `select new CustomerDTO...` to select and transform all customers to CustomerDTO with an array of order id's (Instead of the List<OrderEntity>).
 
 #### hint-1
 You don't necessarily need to implement all Entity-classes before
-    you start on part-3. Make sure to implement some of the methods in
-    part-3 before you stop).
+you start on part-3. Make sure to implement some of the methods in part-3 before you stop).

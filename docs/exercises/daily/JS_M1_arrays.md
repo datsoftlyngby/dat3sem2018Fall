@@ -1,5 +1,5 @@
 ***The JavaScript
-Array***![](media/image2.png){width="1.3967771216097988in"
+Array***![](media/image.png){width="1.3967771216097988in"
 height="0.7642738407699038in"}
 
 ***Use this***

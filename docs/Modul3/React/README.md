@@ -18,13 +18,14 @@ JavaScript, and React this semester, will provide students with the background t
  
  and many more. Some are libraries some are full grown frameworks
 
-## Plan
+## Plan and ressources
 
 |Day|Do before class|Topic|Exercises|
 |-----------|---------|----|-------|
-|[Day 1](path/to/slide/here)| Take a look at [create_react_app quick](create_react_app.md)|SPA, <br/>[ES6 features](http://qnimate.com/post-series/ecmascript-6-complete-tutorial/),<br/> [create-react-app](https://github.com/facebookincubator/create-react-app#getting-started),<br/> [rendering](https://reactjs.org/docs/rendering-elements.html),<br/> [JSX](https://reactjs.org/docs/introducing-jsx.html),<br/> [Components and props](https://reactjs.org/docs/components-and-props.html)<br/>|[Day 1 exercise](https://docs.google.com/document/d/1mCDQgNCKxZwO6cx2FyhwK6-srgZCVVvYCTFGXglrhpg/edit?usp=sharing)   |
+|Day 1| Install [Node (LTS version)](https://nodejs.org/en/download/) and [Visual code](https://code.visualstudio.com/download),<br/>Take a look at [create_react_app quick](create_react_app.md)|SPA, <br/>[ES6 features](http://qnimate.com/post-series/ecmascript-6-complete-tutorial/),<br/> [create-react-app](https://github.com/facebookincubator/create-react-app#getting-started),<br/> [rendering](https://reactjs.org/docs/rendering-elements.html),<br/> [JSX](https://reactjs.org/docs/introducing-jsx.html),<br/> [Components and props](https://reactjs.org/docs/components-and-props.html)<br/>|[Day 1 exercise](https://docs.google.com/document/d/1mCDQgNCKxZwO6cx2FyhwK6-srgZCVVvYCTFGXglrhpg/edit?usp=sharing)   |
 |Day 2||[State](https://reactjs.org/docs/state-and-lifecycle.html),<br/> [Lifting state up](https://reactjs.org/docs/lifting-state-up.html), <br/> [Events](https://reactjs.org/docs/handling-events.html),<br/> [List and keys](https://reactjs.org/docs/lists-and-keys.html),<br/> [Forms](https://reactjs.org/docs/forms.html),<br/>[Controlled components](https://reactjs.org/docs/forms.html#controlled-components)<br/> |[Day 2 exercise](https://docs.google.com/document/d/1OGHsWR8gvubw4R64GBEQqkiPxZutxmWFsd7Ac5z0ygg/edit?usp=sharing)   |
-|Day 3|Look at this [jsonserver quick demo](jsonserver.md), AND <br/> [surge deploy](quick_deployment.md)| MobX light,<br/> AJAX fetch,<br/> Deployment,<br/> JSON server<br/>|[Day 3 exercise](https://docs.google.com/document/d/15oxKKJXSJ1uju8wmRJNXnSE2QuegfwL-Rm3dmtBOhfw/edit?usp=sharing)<br> AND / OR <br> [Day 4 exercise](https://docs.google.com/document/d/1cKgFbuaoCV3J001uxSFLe7iw6gfDOIhuQKGG0hfWze4/edit?usp=sharing)    |
+|Day 3|Look at this [jsonserver quick demo](jsonserver.md), AND <br/> [surge deploy](quick_deployment.md)| Promises and async-await,<br/> AJAX fetch,<br/> Deployment,<br/> JSON server<br/>|[Day 3 exercise](https://docs.google.com/document/d/15oxKKJXSJ1uju8wmRJNXnSE2QuegfwL-Rm3dmtBOhfw/edit?usp=sharing)<br> AND <br> [extra exercise](https://docs.google.com/document/d/1cKgFbuaoCV3J001uxSFLe7iw6gfDOIhuQKGG0hfWze4/edit?usp=sharing)    |
+|Day 4|[Skim this ressource](https://react-bootstrap-table.github.io/react-bootstrap-table2/docs/about.html)|Handling Large amounts of data client and server-side|[Handling large data set: exercise](https://en.wikipedia.org/wiki/Pagination#Pagination_in_electronic_display)|
 |FRIDAY SP6|| Exercises |[SP exercise](https://docs.google.com/document/d/11s2j4S8jpg0X41ARuxC3jgkvD5ikKL8FOqoCBVNNspI/edit?usp=sharing)  |
 |Day 1 |Complete this [simple React Router v4 Tutorial](https://medium.com/@pshrmn/a-simple-react-router-v4-tutorial-7f23ff27adf) and **read** the text.<br/>Skim [this video](https://reacttraining.com/react-router/)|[React Router Docs](https://reacttraining.com/react-router/web/guides/philosophy)|[Exercises day 1](https://docs.google.com/document/d/1o-VeUXFtrMHvkQ6HfuwHHgefiviFk1Uu_5BcpSsPWFg/edit?usp=sharing)|
 |Day 2 ||JSON Web Tokens (JWT)|[Exercises Day 2](https://docs.google.com/document/d/1c-yHpIyWqiH0PNKoW6IAGUJi7OLe8v0wRiivXd0pgfM/edit?usp=sharing)|
@@ -35,25 +36,25 @@ JavaScript, and React this semester, will provide students with the background t
 
 
 
-## Resources: 
+### Resources: 
 
 - The main resource is [reactjs.org]( https://reactjs.org/). Don't focus on the tutorial (it's absolutely not for beginners), but on the [Docs]( https://reactjs.org/docs/hello-world.html). This is the real tutorial.
 - We recommend (very much) that you watch, and code along this [Video Tutorial]( https://egghead.io/lessons/react-react-fundamentals-development-environment-setup). You should have completed the video before Friday
 - If you like books, this [free book]( https://leanpub.com/the-road-to-learn-react) is recommended
 
 
-### Topics
+#### Extra ressources and Topics
 
 | Topic                                | Content                                  | Resource                          |
 | ------------------------------------ | ---------------------------------------- | -------------------------------- |
-| 1. SPA architecture                  | why do we need js frameworks?            | [Video: 52 mins](https://www.youtube.com/watch?v=vXjVFPosQHw)<br/>,          [Article](https://blog.poki.com/front-end-walkthrough-building-a-single-page-application-from-scratch-d47c35fdc830) |
-| 2. node and npm/yarn                 | Installation and use of node + yarn      | [video: 8 mins](https://www.youtube.com/watch?v=7n467QmiANM)<br/>,          [yarn improves on npm](https://scotch.io/tutorials/yarn-package-manager-an-improvement-over-npm#toc-installing-yarn) |
-| 3. ES6                               | classes, arrow notation, destructuring arrays and objects, template strings, let & const, babel light | [Video: watch 0:42.41](https://www.youtube.com/watch?v=hO7mzO83N1Q)<br/>,  [Simple ES6 tutorial](http://qnimate.com/post-series/ecmascript-6-complete-tutorial/) |
+| 1. SPA architecture                  | why do we need js frameworks?            | [Video: 52 mins](https://www.youtube.com/watch?v=vXjVFPosQHw)<br/> [Article](https://blog.poki.com/front-end-walkthrough-building-a-single-page-application-from-scratch-d47c35fdc830) |
+| 2. node and npm/yarn | Installation and use of node + yarn      | [video: 8 mins](https://www.youtube.com/watch?v=7n467QmiANM),<br/>[yarn improves on npm](https://scotch.io/tutorials/yarn-package-manager-an-improvement-over-npm#toc-installing-yarn) |
+| 3. ES6   | classes, arrow notation, destructuring arrays and objects, template strings, let & const, babel light | [Video: watch 0:42.41](https://www.youtube.com/watch?v=hO7mzO83N1Q)<br/>,  [Simple ES6 tutorial](http://qnimate.com/post-series/ecmascript-6-complete-tutorial/) |
 | 4. This keyword                      | The 'this' keyword and how its used in javascript. | [The 'this' keyword](http://reactkungfu.com/2015/07/why-and-how-to-bind-methods-in-your-react-component-classes/) |
 | 5. What problem does React.js solve? | 1. DOM manipulation is an expensive operation and should be minimized.  2. Code reuse with components.    3. Represent state and update state (better to not update but rerun the whole program again - can be expensive though: thus the virtual DOM) | [Some good points here](https://www.quora.com/What-does-react-js-try-to-solve-Can-you-provide-a-practical-example) |
-| 6. React.JS                          | Component, [State and props](demo/propsDemo), Events, List and Keys, Forms, functional components | [React intro](https://reactjs.org/docs/hello-world.html)<br/>,   [JSX](https://reactjs.org/docs/introducing-jsx.html)<br/>,      [Rendering](https://reactjs.org/docs/rendering-elements.html)<br/>,  [Components and props](https://reactjs.org/docs/components-and-props.html)</br>, [Forms](https://reactjs.org/docs/forms.html), |
+| 6. React.JS                          | Component, [State and props](demo/propsDemo), Events, List and Keys, Forms, functional components | [React intro](https://reactjs.org/docs/hello-world.html),<br/>[JSX](https://reactjs.org/docs/introducing-jsx.html),<br/>      [Rendering](https://reactjs.org/docs/rendering-elements.html),<br/>  [Components and props](https://reactjs.org/docs/components-and-props.html),<br/> [Forms](https://reactjs.org/docs/forms.html), |
 | 7. Create-react-app                  | A program to set up your react application with babel and webpack: Removes a lot of initial configuration | [Create-react-app tutorial](https://medium.com/@diamondgfx/learning-react-with-create-react-app-part-1-a12e1833fdc) |
-| 8. Lifecyckle methods                | componentWillMount, componentWillReceiveProps etc. | [When and why](https://engineering.musefind.com/react-lifecycle-methods-how-and-when-to-use-them-2111a1b692b1) |
+| 8. Lifecyckle methods                | componentWillMount, componentWillReceiveProps etc. | [When and why to use](https://engineering.musefind.com/react-lifecycle-methods-how-and-when-to-use-them-2111a1b692b1) |
 | 9. React with router                 | react-router                             |                                          |
 | 10. React with backend               | json-server (locally), rest api backend  |                                          |
 
