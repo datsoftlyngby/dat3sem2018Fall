@@ -62,6 +62,6 @@ Backup of *.doc*
 **/*.xlk
 
 # PowerPoint
-**/
+
 
 **/*.lnk
