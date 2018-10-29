@@ -18,8 +18,7 @@ Here is an example of a view with components inside components:
 1. `<div><MyComponent/></div>`  
 2. `<div><MyComponent someProp="Jesper Nielsen"/></div>`  
 3. `<div><MyComponent someProp={someObj.field}/></div>`  
-4. `const element = (<h1>Hello, {user.fname}!</h1>);`
-5. `<MyComponent><MySubComponent name={someVal}/></MyComponent>`
+4. `<MyComponent><MySubComponent name={someVal}/></MyComponent>`
 
 #### 2 kinds of Components
 1. functional component
