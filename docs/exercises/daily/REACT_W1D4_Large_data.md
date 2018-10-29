@@ -251,7 +251,7 @@ timing-observations in the previous step.
 **h.** Reconsider your reply to e) in the previous part, given what you
 have observed in this part
 
- ### (Yellow level) Handle pagination, sorting and filtering on the (mock) server
+### (Yellow level) Handle pagination, sorting and filtering on the (mock) server
 
 
 *This part is a bit more complicated, since you will have to do many of the things, done by the control in the previous step. So make sure to read to information related to*[ **Remote Tables**](https://react-bootstrap-table.github.io/react-bootstrap-table2/docs/basic-remote.html) *before you continue.*
