@@ -1,5 +1,5 @@
 # Content
-- Promises and async-await,
+- [Promises and async-await](https://javascript.info/async-await),
 - AJAX fetch,
-- Deployment,
-- JSON server
+- [Deployment](quick-deployment.md),
+- [JSON server](jsonserver.md)
