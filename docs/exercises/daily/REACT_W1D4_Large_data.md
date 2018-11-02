@@ -9,8 +9,8 @@ you sort, filter and navigate forward and backwards in the full
 record-set. This is one way (not the only) to handle large data-sets,
 which is what this exercise will focus on.*
 
-What you have to do in this exercise
-------------------------------------
+### What you have to do in this exercise
+
 
 This exercise will lead you through the following steps:
 #### Green level
@@ -104,11 +104,11 @@ Restart the mockend-server, with 5000 names.
 
 In a browser test **all**, the following commands:
 
-*Get all data:*
+*Get all data:*  
   http://localhost:1234/api
 
-Sorting, *first ascending then descending:*  
-  http://localhost:1234/api?\_sort=firstName&\_order=asc 
+Sorting, *first ascending then descending:*   
+  http://localhost:1234/api?\_sort=firstName&\_order=asc   
   
   http://localhost:1234/api?\_sort=firstName&\_order=desc
 
@@ -302,9 +302,10 @@ Add these two lines to the start of the render method:
 const onSizePerPageChange = this.handleSizePerPageChange;
   ```
 
-And finally add these props to the `<BootstrapTable.../>`
-  ```js
-  onTableChange={this.handleTableChange}
+And finally add these props to the `<BootstrapTable.../>`  
+
+```js
+onTableChange={this.handleTableChange}
 pagination={paginationFactory({ page,sizePerPage,totalSize,onSizePerPageChange })}
 ```
 

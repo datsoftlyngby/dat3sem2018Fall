@@ -1,12 +1,12 @@
 # React with routing
-![](media/image4.png)
+![](../media/image4.png)
 
 **General part**
 - Describe the term Single Page Application and why it relevant for modern web-applications
 - Describe how SPA's are implemented with React
 - Explain about Routing in React
 
-<span id="_gjdgxs" class="anchor"></span>**Practical part**
+**Practical part**
 
 The task is to create a small application with three routes and matching
 views (there is no “top-menu” in this example). The app must have an
@@ -16,7 +16,7 @@ view for the selected user. This is all sketched in the figure below.
 
 The data sample provided on next page include links to fetch both a
 *thumbnail* and a *full size picture* for all
-users.![](media/react_router.png)
+users.![](../media/react_router.png)
 
 *Complete the exercise following these steps* (don't consider styling,
 until all components/routes are implemented):
