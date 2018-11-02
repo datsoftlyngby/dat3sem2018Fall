@@ -14,7 +14,7 @@ colour-ambition) from day 1-4, before you continue with the the
 following:
 
 #### Part 2: Exam preparation exercises
-
+[exprep react fetch](../exam_prep/exprep_react_fetch.md)
 Review Times and where to put link to your agenda for the review meeting Monday (or Tuesday)
 
 
