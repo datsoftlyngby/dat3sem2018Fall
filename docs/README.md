@@ -1,15 +1,15 @@
 # Semester oversigt
 
-### [Praktisk info om 3. semester](Praktisk.md)
+### [Praktisk info om 3. semester](Praktisk.md)  
 [Wiki pages to find techical solutions and more for the whole semester](https://github.com/datsoftlyngby/dat3sem2018Fall/wiki)  
 
-[Gruppe vejledninger kommer til at være i dette regneark]()  
+[Gruppe vejledninger kommer til at være i dette regneark](https://docs.google.com/spreadsheets/d/1m44DXpp-kcUK2TMKmlDDL9N68IFPyxuSx_L6Q7ZfAo4/edit?usp=sharing)  
 
-[Gruppe review planer linkes i dette ark]()  
+[Gruppe review planer linkes i dette ark](https://docs.google.com/spreadsheets/d/1gA2Ku3t56CMy0B2VonyG79hPiphDJZvcOgdc-EPyXnM/edit?usp=sharing)  
 
-[Studypoints]()
+[Studypoints](https://studypoints.dk/)
 
-#### Skema i kort udgave:<br>
+#### Skema med links til læringsmaterialet
 
 
 |      Uge | Dato        | Emne                                     |

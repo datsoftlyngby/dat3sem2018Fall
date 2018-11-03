@@ -4,8 +4,7 @@
 
 You can earn up to 6 studypoints for this week's presentation.
 
-This will follow the usual pattern for presentations and reviews as explained
-[*here*]().
+This will follow the usual pattern for presentations and reviews together with SP7 efter react week 1 and 2.
 
 #### Part 1: Daily exercises
 
