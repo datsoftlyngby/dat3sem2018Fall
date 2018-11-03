@@ -26,7 +26,7 @@
 |          | **Module 3** | **System Development**     |
 |		  8 | 08-10-2018 | [SYS 1](Modul4/Week1_Sys1/README.md) |
 |		  9 | 15-10-2018 | **Efterårsferie**|
-|		  9 | 22-10-2018 | [SYS 2](Modul4/Week1_Sys2/README.md)|
+|		  9 | 22-10-2018 | [SYS 2](Modul4/Week2_Sys2/README.md)|
 |          | **Module 4** | **React**   |
 |       10 | 29-10-2018  | [SPA with React](Modul3/React1/README.md)|
 |       11 | 5-11-2018  | [React routing and native](Modul3/React2/README.md) |
