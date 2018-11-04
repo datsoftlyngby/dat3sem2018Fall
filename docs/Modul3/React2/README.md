@@ -7,7 +7,7 @@
 - Watch this [video](https://www.youtube.com/watch?v=l9eyot_IXLY)
 
 - Another small [tutorial/guide](https://www.sitepoint.com/react-router-v4-complete-guide/), which will introduce you to React Router
-- Bookmark this [link](https://reacttraining.com/react-router/web/api/), which include the API-description for React Router V4, which we will be using
+- Bookmark this [link](https://reacttraining.com/react-router/web/api/), which include the API-description for React Router V4, which we will be using.
 
 #### Exercises
 - Class exercise done together for part 1: [Exercises React Router](../../exercises/daily/REACT_W2D1_ROUTER_2.md)  
@@ -25,7 +25,7 @@
 
 
 ### Exercises
-- [Exercises Security](../../daily/REACT_W2D2_Security.md)  [](https://docs.google.com/document/d/1hC21WzWjNnQLy0eoLJB-HFRmVYpj-KtprHfmgwlyx50/edit?usp=sharing) 
+- [Exercises Security](../../daily/REACT_W2D2_Security.md) 
 
 ### Day 3 Wednesday - React Native
 
