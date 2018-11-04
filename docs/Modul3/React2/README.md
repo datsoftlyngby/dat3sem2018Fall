@@ -25,7 +25,7 @@
 
 
 ### Exercises
-- [Exercises Security](../../daily/REACT_W2D2_Security.md) 
+- [Exercises Security](../../exercises/daily/REACT_W2D2_Security.md) 
 
 ### Day 3 Wednesday - React Native
 
