@@ -20,7 +20,7 @@
 
 #### Before the lesson:  
 - Video: [JSON Web Tokens (first 24 min)](https://www.youtube.com/watch?v=oXxbB5kv9OA)
-- Video: [Passords hashing with bcrypt](https://www.youtube.com/watch?v=O6cmuiTBZVs) (still one of the coolest educational videos ever made ;-)
+- Video: [Passords hashing with bcrypt](https://www.youtube.com/watch?v=O6cmuiTBZVs)
 - Skim this article about [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
 
 
@@ -44,6 +44,7 @@ Readings and references for Expo and React Native
 
 
 ## Day 4 Thuersday - React Native-2
+#### Free play with react native and the expo apis
 More react native with [expo](https://docs.expo.io/versions/v31.0.0/)
 Free play with the expo [tutorials](https://docs.expo.io/versions/v31.0.0/tutorials/create-floatyplane-game.html) and [APIs](https://docs.expo.io/versions/v31.0.0/sdk/)   
 Look specifically for [Camera api](https://docs.expo.io/versions/v31.0.0/sdk/camera) AND [Location api](https://docs.expo.io/versions/v31.0.0/sdk/location)

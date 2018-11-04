@@ -47,22 +47,19 @@ navigate in the application.
 
 You will probably prefer the first version *if you could*. There is
 however, a deployment issue with the BrowserRouter which you can't see
-when you use the webpack dev-server (npm start). I will demo this
-problem in the class.
+when you use the webpack dev-server (npm start).
 
-Unless you belong to the red students, we suggest that this is the
-router you are using, but please read the
-[*docs*](https://reacttraining.com/react-router/web/api/HashRouter)
+Unless you belong to the red students, we suggest that you are using the HashRouter, but please read the [*docs*](https://reacttraining.com/react-router/web/api/HashRouter)
 related to HashRouter.
 
 The guidelines you will get for deployment *will require that you use
 this browser*. Obviously you can deploy in a way that will handle the
-problem, but that’s for the reds, to figure out.
+problem, but that’s for the reds, to figure out [Starting here](https://github.com/ReactTraining/react-router/blob/v3/docs/guides/Histories.md#configuring-your-server).
 
 **Understanding the match object**
 
 **f)** Press Home and then Topics and observe the url used for this
-route. Locate the place (s) in the code that forces this path to be
+route. Locate the place(s) in the code that forces this path to be
 used.
 
 **g)** Now press some of the Topics-links, and observe the url used for
@@ -70,14 +67,15 @@ these (nested) routes.
 
 Locate the place (s) in the code that forces these paths to be used.
 
-**h)** Now locate the five places (in Topics) that contain this code
-snippet: ` {${match.url }`
+**h)** Now locate the five places (in Topics and Topic) that uses the match object: 
+- `({match})`
+- `{${match.url}`
+- `{${match.path}`
+- `{${match.params.<some param>}`
+Especially notice in Topics - this statement: `<Route path={`${match.path}/:id\} component={Topic} /> and how it corresponds with a statement in Topic: `<h3>Requested Param: {match.params.id}</h3>`.  
+This is how we can forward parameters with Routes.  
 
-Replace it, with this hardcoded path (you might want to make a copy of
-the Topic component to get back to the original when this "experiment is
-over): `to="topics/rendering"`
 
-Verify that everything works just as before the change.
 
 **The match part shows you two things.**
 
@@ -85,31 +83,27 @@ Verify that everything works just as before the change.
 
 2.  This is suggested as the normal pattern for building nested routes (as in this example).
 
-**i)** What is the advantage we get by using the match version compared
-to the hardcoded strings we added instead?
-
 In the next step you will see that match provides us with some very
 useful additional information. Read
 [*here*](https://reacttraining.com/react-router/web/api/match) before
 you continue.
 
-**j)** Change the Topics component back into the original version (that
-uses mactc)
-
 **Handling URL-parameters**
 
-**k)** locate the Topic component, and add this class to the outer div:
+**i)** locate the Topic component, and add this class to the outer div:
 className="topic"
 
 This was only done, to ensure you know where this part of the code is
 rendered
 
-**l)** In Topics locate this part of the code, and make sure you
+**j)** In Topics locate this part of the code, and make sure you
 understand the purpose of the highlighted part:
 
-&lt;Route path={\`\${match.url}/:topicId\`} component={Topic}/&gt;
+```
+<Route path={`${match.url}/:topicId`} component={Topic}/>
+```
 
-**m)** Locate the Topic class and make sure you understand the
+**k)** Locate the Topic class and make sure you understand the
 highlighted parts (use the
 [*docs*](https://reacttraining.com/react-router/web/api/match))
 
