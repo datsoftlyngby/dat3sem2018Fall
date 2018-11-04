@@ -40,7 +40,7 @@ Readings and references for Expo and React Native
 - [Main resource for React Native](https://facebook.github.io/react-native/docs/getting-started.html)
 
 ### Exercises
-[React Native](https://docs.google.com/document/d/1InOKIB8hLsjKCtjrqkgtQIDHDorMEvpE_j12MMvU1Vk/edit?usp=sharing)
+[React Native](../../exercises/daily/REACT_W2D3_Native.md)
 
 
 ## Day 4 Thuersday - React Native-2

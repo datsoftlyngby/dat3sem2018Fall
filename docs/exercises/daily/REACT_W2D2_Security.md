@@ -1,4 +1,5 @@
-# A JWT-based Authentication Strategy for a REST-API.
+# A JWT-based Authentication Strategy 
+### for a REST-API.
 
 *In the following, you will implement a JWT-based Authentication
 mechanism (obviously using an external package to handle the
@@ -8,11 +9,11 @@ Native based project.*
 
 *The requirements for our solution will be:*
 
-- *After an initial *traditional* successful login, the client will be
+- *After an initial **traditional** successful login, the client will be
   supplied with a valid JWT*
 
-- *REST endpoints should be able to use the normal security annotations (see* [**jersey
-  doc**](https://jersey.github.io/documentation/latest/security.html)*)*
+- *REST endpoints should be able to use the normal security annotations (see [**jersey
+  doc**](https://jersey.github.io/documentation/latest/security.html)*)
 
 - *Access to endpoints will be determined by the validity/content of
   the supplied JWT*
@@ -40,7 +41,7 @@ After cloning you should:
   this database. *Use the name “**pu**”* and it will “fit right
   into” the existing code.
 
-3.  Create the database and tables using the create strategy in
+3.  Create the database tables using the create strategy in
   the persistence-file.
 
 4.  Create a few test **roles** and **users** by running the file:
@@ -237,7 +238,8 @@ In this exercise, we will create a simple REACT- SPA, that should use the backen
 ![](media/postman.png)
 
 ### Getting started
-This exercise requires your backend to run, and to handle CORS as explained in previous exercises, so start the backend server if not already done.
+This exercise requires your backend to run, and to handle CORS as explained in previous exercises, so start the backend server if not already done.  
+
 **a)** Create a new project with create-react-app and clean it up “the usual way”.
 
 **b)** Create a new file in the src folder called apiFacade.js and paste the code below into the file:
@@ -363,7 +365,8 @@ setToken = (token) => {
 
 We have several options when it comes to “where to store the Token”
 (cookies, localstorage and sessionstorage + more “sophisticated”
-options). **Important:** In this example localStorage has been chosen,
+options).   
+**Important:** In this example localStorage has been chosen,
 since it provides some usability advantages, but it’s not necessarily
 the most secure choice. Read
 [*here*](https://stormpath.com/blog/where-to-store-your-jwts-cookies-vs-html5-web-storage)
@@ -388,7 +391,7 @@ trigger a re-render, which will “switch” components.
 
 ```js
 facade.login(user,pass)
-    .then(res =>this.setState({ loggedIn: true }));
+.then(res =>this.setState({ loggedIn: true }));
 ```
 
 **g)** Verify that you can login, and also verify with developer tools,
@@ -398,32 +401,29 @@ that the token is stored in localStorage:
 
 **h)** Now add the code to logout (with this strategy, you can still
 login with postman or similar, until the token times out). Add this code
-to the logout(..) method in the App
-component.
+to the logout(..) method in the App component.
 
 ```js
 facade.logout();
-   this.setState({ loggedIn: false });
+this.setState({ loggedIn: false });
 ```
 
 Verify that we can “logout” and go back to the “login page”.
 
 **Answer these questions before you continue:**
-
--   Did this login involve the server
--   Is the token (if kept somewhere, still valid?)
--   If your answer to the question above was yes, is this a problem?,
-  and if, how could it have been solved?
+- Did this login involve the server
+- Is the token (if kept somewhere, still valid?)
+- If your answer to the question above was yes, is this a problem?, and if, how could it have been solved?
 
 **i)** The only thing missing to complete this simple example, is to make a request, using the token, up against a protected endpoint.
 
-Add this method to the ApiFacade:
+Add this method to the Api Facade:
 ```js
 fetchData = () => {
-   const options = this.makeOptions("GET",true); //True add's the token
-   return fetch(URL + "/api/info/user", options).then(handleHttpErrors);
- }
- ```
+ const options = this.makeOptions("GET",true); //True add's the token
+ return fetch(URL + "/api/info/user", options).then(handleHttpErrors);
+}
+```
 
 Do not continue, before you have convinced yourself of how the token has
 been added to the header `"x-access-token"` to the outgoing request.
@@ -439,10 +439,10 @@ data from the protected endpoint on the server.
 **Important:** While you are testing this, make sure to follow on in the
 network-tab in developer tools. You should observe all the following
 topics:
--   How username and password are passed to server
--   How the server sets the CORS headers
--   How the server returns the token (in the Response)
--   How we (you) attach the token to the outgoing request up against the protected endpoint.
+- How username and password are passed to server
+- How the server sets the CORS headers
+- How the server returns the token (in the Response)
+- How we (you) attach the token to the outgoing request up against the protected endpoint.
 
 **l)** Finally, to add the final touch to this small exercise, add
 error-handling where relevant (wrong credentials when logging in etc.)
