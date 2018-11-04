@@ -4,12 +4,15 @@
 ### Day 1 Monday - React Router
 
 #### Before this lesson
-- If you have not yet done so - complete  all the steps in this [small exercise](https://docs.google.com/document/d/1NifApJ0QWxqa5kvvDxCvYew7WYqVViKiE0X8tB0Su0A/edit?usp=sharing), including the "watch the video" part. If not do it before this lesson.
+- Watch this [video](https://www.youtube.com/watch?v=l9eyot_IXLY)
+
 - Another small [tutorial/guide](https://www.sitepoint.com/react-router-v4-complete-guide/), which will introduce you to React Router
 - Bookmark this [link](https://reacttraining.com/react-router/web/api/), which include the API-description for React Router V4, which we will be using
 
 #### Exercises
-- [Exercises React Router](https://docs.google.com/document/d/1HS5x4viPsdFU0DxK-mIDTkaOk5v3NmJSig-JCOTmqQg/edit?usp=sharing) 
+- Class exercise done together for part 1: [Exercises React Router](../../exercises/daily/REACT_W2D1_ROUTER_2.md)  
+- [Slow tutorial](../../exercises/daily/REACT_W2D1_ROUTER_1.md)
+
 
 
 ### Day 2 Tuesday- Security 
@@ -21,7 +24,7 @@
 - Skim this article about [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
 
 
-#### Exercises
+### Exercises
 - [Exercises Security](https://docs.google.com/document/d/1hC21WzWjNnQLy0eoLJB-HFRmVYpj-KtprHfmgwlyx50/edit?usp=sharing) 
 
 ### Day 3 Wednesday - React Native

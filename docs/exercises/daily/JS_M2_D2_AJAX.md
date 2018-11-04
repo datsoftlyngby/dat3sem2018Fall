@@ -1,8 +1,4 @@
----
-title: |
-    <span id="_7qa136o06mi" class="anchor"></span> AJAX with fetch and DOM
-    manipulation
-...
+# AJAX with fetch and DOM
 
 For each of these exercises, we suggest you use the simple SPA-startcode
 project, introduced day-1, which you can clone from here:
