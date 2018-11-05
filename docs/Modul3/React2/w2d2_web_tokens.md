@@ -26,4 +26,4 @@ In our application we will create the JWT on the server and send it to the clien
 #### verify hashed passwords
 ![](img/compare_passwords.png)
 
-[**Do this tutorial here**](../../exercises/daily/REACT_W2D2_Security.md)
+[**Do this tutorial / exercise here.**](../../exercises/daily/REACT_W2D2_Security.md)

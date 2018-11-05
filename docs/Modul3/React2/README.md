@@ -23,7 +23,8 @@
 - Video: [Passords hashing with bcrypt](https://www.youtube.com/watch?v=O6cmuiTBZVs)
 - Skim this article about [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
 
-
+### Slides
+[Daily slides](w2d2_web_tokens.md)
 ### Exercises
 - [Exercises Security](../../exercises/daily/REACT_W2D2_Security.md) 
 
