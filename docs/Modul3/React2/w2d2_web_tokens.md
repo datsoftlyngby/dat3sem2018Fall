@@ -20,7 +20,8 @@ In our application we will create the JWT on the server and send it to the clien
 #### Hashing a password
 ![](img/hashing.png)  
 Is it secure when it is hashed?
-Checkout the crackstation dictionary of words to hashes [here](https://crackstation.net/crackstation-wordlist-password-cracking-dictionary.htm) and [crack station online lookup service here](https://crackstation.net/)
+Checkout the crackstation dictionary of words to hashes [here](https://crackstation.net/crackstation-wordlist-password-cracking-dictionary.htm) and [crack station online lookup service here](https://crackstation.net/)  
+
 #### Salting after hashing
 ![](img/salting.png)
 
