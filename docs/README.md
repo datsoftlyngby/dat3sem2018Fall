@@ -14,7 +14,7 @@
 
 |      Uge | Dato        | Emne                                     |
 | -------: | :---------- | :--------------------------------------- |
-|          | **Module 1** | Netværk & tråde |
+|          | **Module 1** | **Netværk & tråde** |
 |        1 | 20-08-2018  | [Threads](Modul1/Week1/README.md) |
 |        2 | 27-08-2018  | [Network and HTTP](Modul1/Week2/README.md)                    |
 |        3 | 03-09-2018  | [JS and CA1](Modul1/Week3/README.md)                    |

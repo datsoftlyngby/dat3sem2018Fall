@@ -2,7 +2,7 @@
 ![](../media/image4.png)
 
 **General part**
-- Describe the term Single Page Application and why it relevant for modern web-applications
+- Describe the term Single Page Application and why it is relevant for modern web-applications
 - Describe how SPA's are implemented with React
 - Explain about Routing in React
 
@@ -14,17 +14,16 @@ initial view with a welcome message + a Link to a view that renders a
 list of all users. When "details" are pressed it must present a details
 view for the selected user. This is all sketched in the figure below.
 
-The data sample provided on next page include links to fetch both a
+users.![](../media/react_router.png)  
+
+The data sample provided [Here](###-Data) include links to fetch both a
 *thumbnail* and a *full size picture* for all
-users.![](../media/react_router.png)
 
 *Complete the exercise following these steps* (don't consider styling,
 until all components/routes are implemented):
 
-**1)** Create a new project with create-react-app and import required
-dependencies in App.js as:
-`Import {BrowserRouter as Router, Route, Link, Switch} from
-"react-router-dom"`
+**1)** Create a new project with create-react-app: `npx create-react-app <app name>`. Inside the folder of the new app install the react router: `npm install --save react-router-dom`. Finally import required dependencies in App.js as:  
+`import {BrowserRouter as Router, Route, Link, Switch} from "react-router-dom"`
 
 **2)** Paste the json formatted data into a file: `data/data.json`. Read
 data into your App component like this:
@@ -52,6 +51,8 @@ lead to this view
 **7)** When everything works as expected, style the application (not
 necessarily as on the screenshots above).
 
+
+### Data
 *Data for the exercise (paste into a file **data.json**, in a folder
 **data**)*:
 ```json
