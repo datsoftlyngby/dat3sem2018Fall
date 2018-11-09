@@ -14,12 +14,12 @@ initial view with a welcome message + a Link to a view that renders a
 list of all users. When "details" are pressed it must present a details
 view for the selected user. This is all sketched in the figure below.
 
-users.  
+
 
 ![](../media/react_router.png)  
 
 The data sample provided [Here](###-Data) include links to fetch both a
-*thumbnail* and a *full size picture* for all
+*thumbnail* and a *full size picture* for all users.  
 
 *Complete the exercise following these steps* (don't consider styling,
 until all components/routes are implemented):
