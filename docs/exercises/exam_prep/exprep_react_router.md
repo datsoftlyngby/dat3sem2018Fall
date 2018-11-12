@@ -50,7 +50,9 @@ lead to this view.
 **6)** Implement the Details Component and the Route-handler that will
 lead to this view
 
-**7)** When everything works as expected, style the application (not
+**7)** Create a back botton that use `props.history.goBack` to move to previous view.
+
+**8)** When everything works as expected, style the application (not
 necessarily as on the screenshots above).
 
 

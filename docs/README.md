@@ -30,7 +30,7 @@
 |          | **Module 4** | **React**   |
 |       10 | 29-10-2018  | [SPA with React](Modul3/React1/README.md)|
 |       11 | 5-11-2018  | [React routing and native](Modul3/React2/README.md) |
-|       12 | 12-11-2018  | [CA3](Modul3/Week3/README.md) |
+|       12 | 12-11-2018  | [CA3](https://docs.google.com/document/d/1GZvVK-dGHjyP30BULhtRz9EFYd9MOzdtChoV6X_mRnQ/edit?usp=sharing) |
 |          | **Module 5** | **Projekt**    |
 |       13 | 19-11-2018  | Project |
 |       15 | 26-11-2018  | Project |
