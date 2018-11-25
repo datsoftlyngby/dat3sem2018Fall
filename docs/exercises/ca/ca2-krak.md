@@ -145,14 +145,17 @@ Use the study point exercise [](../exam_prep/exprep_rest_json.md) as an inspirat
 
 The API should include all four CRUD operations + most of the business services described in the section "The Business Domain". The API description must include a specification of the required JSON-data, and it’s response to errors (see next section)
 
+
   |GET   | Description|            
   |---- |---- |
   |api/person/complete |      Return all Persons, with all details, as a JSON object (As in *JSON example-1)*|
-  |api/person/complete/id |                             Return the Person (with the given id) with all details as a JSON object (as in *JSON example-1)*|
-  |api/person/contactinfo |                             Return all Persons, with only contact info, as a JSON object (As in *JSON example-2)*|
-  |api/person/contactinfo/id  |                         Return the Person (with the given id) with only contact info, as a JSON object (As in *JSON example-2)*|
-|  POST  | |          
+  |api/person/complete/id |  Return the Person (with the given id) with all details as a JSON object (as in *JSON example-1)*|
+  |api/person/contactinfo |  Return all Persons, with only contact info, as a JSON object (As in *JSON example-2)*|
+  |api/person/contactinfo/id  |  Return the Person (with the given id) with only contact info, as a JSON object (As in *JSON example-2)*|
+|  **POST**  | |          
 | api/person      |  Create a new Person given a JSON object (as in *JSON example-1)* |
+
+
 Complete the API description for all services.   
 (As a check for whether your API description is accurate enough, consider yourself in a situation where you were the API *user* having to write the client code, given only the API description. Or consider that you were going to outsource this part, and do the front-end part in parallel with this.)
 
