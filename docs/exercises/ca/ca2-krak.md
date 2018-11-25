@@ -1,13 +1,13 @@
-**Course Assignment 2 **
+# Course Assignment 2
 
 **Object Relational Mapping, REST, Test, Ajax and
-JavaScript**![](media/image2.png){width="6.162083333333333in"
-height="1.6770833333333333in"}
+JavaScript**
 
-***Content of this document ***
+![](../media/ca2_technologies.png)
 
-Object Relational Mapping, REST, Test, Ajax and JavaScript
-==========================================================
+**Content of this document**
+
+### Object Relational Mapping, REST, Test, Ajax and JavaScript
 
 This CA builds a proof of concept solution, for what could have been a
 (agreed very simplified) real life system. For this reason we assume
@@ -16,56 +16,38 @@ come.
 
 ***This CA will strengthen your skills and knowledge related to:***
 
--   Use an Object Relational Mapper (JPA) to map between Java Objects
-    > and Relational Tables
+-   Use an Object Relational Mapper (JPA) to map between Java Objects and Relational Tables
 
--   Use an Object Relational Mapper (JPA) to map Java Inheritance to
-    > Relational Tables
+-   Use an Object Relational Mapper (JPA) to map Java Inheritance to Relational Tables
 
 -   Expose business functionality via a REST-API and JSON.
 
 -   Handle erroneous scenarios via a REST-API and JSON
 
--   Build dynamic web-pages that builds content via JavaScript,DOM and
-    > AJAX up against a backend REST API.
+-   Build dynamic web-pages that builds content via JavaScript,DOM and AJAX up against a backend REST API.
 
-Hand-in
--------
+#### Hand-in
 
 -   The code must be made available via Github.
 
--   Your web-server must be available via a personal domain name and
-    > *only* accessible via https.
+-   Your web-server must be available via a personal domain name and *only* accessible via https.
 
--   You are expected to be able to explain/defend the design choices you
-    > have made. For example: your choice of inheritance strategy and
-    > use of uni/bi-directional relationships should be clear to you.
+-   You are expected to be able to explain/defend the design choices you have made. For example: your choice of inheritance strategy and use of uni/bi-directional relationships should be clear to you.
 
 What is expected for the presentation Monday
 
-You can each earn up to 20 study points for CA 2, depending on how far
-you have come (your ambitions/color taken into account), and your
+You can each earn up to 20 study points for CA 2, depending on how far you have come (your ambitions/color taken into account), and your
 presentation monday (March 19th.)
 
 ***This is what we expect from you.***
 
-1.  An introduction + demonstration from the group, explaining how far
-    > you came, problems you might have had, and important, who did
-    > what.
+1.  An introduction + demonstration from the group, explaining how far you came, problems you might have had, and important, who did what.
 
-2.  After that we expect each member to introduce a part of the CA using
-    > the “right terms” and if needed, focusing on parts where you would
-    > like our feedback.
+2.  After that we expect each member to introduce a part of the CA using the “right terms” and if needed, focusing on parts where you would like our feedback.
 
-  -- --
-     
-  -- --
+### How and When to hand-in
 
-How and When to hand-in
------------------------
-
-Send a mail to
-[*iwantstudypoints@gmail.com*](mailto:iwantstudypoints@gmail.com), with
+Send a mail to[*iwantstudypoints@gmail.com*](mailto:iwantstudypoints@gmail.com), with
 the class + *full name* of *all members in the team* + the link to your
 server and the link to your github repository. No later than **Sunday
 (18.03.2018) before 16.00.**
@@ -78,17 +60,14 @@ If you include a section marked: FEEDBACK in this mail, with comments;
 either from each member in, or alternatively from the team, you will
 each earn additional *4 BONUS study points*.
 
-How to spend your four days
----------------------------
+### How to spend your four days
 
 A proposed schedule to develop the system over 2 consecutive two-day
 mini sprints is sketched below:
 
--   Day-1+2: *Before the end of day two* should have a working restful
-    > api.
+-   Day-1+2: *Before the end of day two* should have a working restful api.
 
--   Day 3+4: Complete the Front-end, missing back-end parts and deploy
-    > the system
+-   Day 3+4: Complete the Front-end, missing back-end parts and deploy the system
 
 How to complete this CA in only four days
 -----------------------------------------
@@ -114,143 +93,99 @@ document elaborates a little on what skills you will use for this CA,
 and on the use of DTO’s. It is recommended reading, but does not contain
 new information.
 
-Project Description
-===================
+## Project Description
 
-The Business Domain
--------------------
+
+**The Business Domain**
+
 
 A new company plans to join the market for *information about people and
 companies* (like Krak, De Gule Sider etc.). They plan to offer services
 like:
 
--   Get information about a person (address, hobbies etc) given a phone
-    > number
+- Get information about a person (address, hobbies etc) given a phone number
+- Get information about a company given a phone number or cvr.
+- Get all persons with a given hobby
+- Get all persons living in a given city (i.e. 2800 Lyngby)
+- Get the count of people with a given hobby
+- Get a list of all zip codes in denmark
+- Get a list of companies with more than xx employes
+- Etc.
+- In order to set up data, the API must also provide methods to add, delete and edit the Entities
 
--   Get information about a company given a phone number or cvr.
+Initially the following simplified version of the business domain has been approved as the background for a quick prototype application.
 
--   Get all persons with a given hobby
+![](../media/ca2_er_diagram.png)
 
--   Get all persons living in a given city (i.e. 2800 Lyngby)
-
--   Get the count of people with a given hobby
-
--   Get a list of all zip codes in denmark
-
--   Get a list of companies with more than xx employes
-
--   Etc.
-
--   In order to set up data, the API must also provide methods to add,
-    > delete and edit the Entities
-
-Initially the following simplified version of the business domain has
-been approved as the background for a quick prototype
-application.![](media/image4.png){width="7.251501531058618in"
-height="3.959277121609799in"}
-
-Yellow groups may leave out the inheritance part of the diagram; instead
-of the InfoEntity, Company, and Person classes, implement a single
+Yellow groups may leave out the inheritance part of the diagram; instead of the InfoEntity, Company, and Person classes, implement a single
 Person class.
 
-Green groups may additionally leave out the Hobby class, and hence avoid
-the many-to-many relationship between Person and Hobby.
+Green groups may additionally leave out the Hobby class, and hence avoid the many-to-many relationship between Person and Hobby.
 
-You should, however, be aware of that all the relationships used in the
-diagram above, will be covered by exams. Make sure you understand this
-diagram and the differences between the relationships used between
+You should, however, be aware of that all the relationships used in the diagram above, will be covered by exams. Make sure you understand this diagram and the differences between the relationships used between
 classes.
 
-What to do in this CA, with a suggested time schedule
------------------------------------------------------
+## What to do in this CA, with a suggested time schedule
 
 ### Part-1 (day 1) Design your Entity Classes, tables and Façade(s)
 
-a)
-
-Design Your Entity classes and tables (you decide whether to design
+**a)** Design Your Entity classes and tables (you decide whether to design
 tables, and create Entity classes from the tables, or the other way
 around, *but we suggest the last strategy*)
 
-b)
-
-Implement one (or more) façade classes to simplify the operations on the
+**b)** Implement one (or more) façade classes to simplify the operations on the
 entity classes
 
 The façade must have methods matching the initial requirements given on
 the previous page, that is:
 
-Person getPerson(int id)[^1];
-
-List&lt;Person&gt; getPersons();
-
-List&lt;Person&gt; getPersons(int zipCode);
-
+```java
+Person getPerson(int id); 
+List<Person> getPersons();
+List<Person> getPersons(int zipCode);
 Company getCompany(cvr);
+```
+(First line should provide a Person with all details. When you build your JSON for a specific REST CALL you decide for how much to include, according to you API description).
 
-…
+Observe: You don't need to complete your façade in day-1. Complete as much as you can on day 1 (including testing) and continue with the API on day 2. You can add the missing parts later *if you have time*.
 
-*Observe: You don't need to complete your façade in day-1. Complete as
-much as you can on day 1 (including testing) and continue with the API
-on day 2. You can add the missing parts later *if you have time*. *
+**c)** Implement **JUnit** tests to verify the behaviour of your façade. Make sure to have a specific test database for this part (Use a separate persistence unit for a local test-database).
 
-c)
-
-Implement **JUnit** tests to verify the behaviour of your façade. Make
-sure to have a specific test database for this part (Use a separate
-persistence unit for a local test-database).
-
-d\) Test Data
-
-We want the final demonstration of this system to be as realistic as
+**d)** Test Data We want the final demonstration of this system to be as realistic as
 possible, so we need (lots of) Test Data
 
-**Hints: **
+**Hints:**
 
 Use the script
 [***populate.sql***](https://github.com/Cphdat3sem2017f/StartcodeExercises/blob/master/CA1/populate.sql)
 to set up values for all Danish zip-codes.
 
-Use the study point exercise *exam-preparation\_REST\_JSON.pdf* as an
-inspiration of; how to create large amounts of test data (don't create
-JSON, but an SQL-script)
+Use the study point exercise *exam-preparation\_REST\_JSON.pdf* as an inspiration of; how to create large amounts of test data (don't create JSON, but an SQL-script)
 
-*For a Group with only two members you may use a modified version of a
-script provided by another team*
+*For a Group with only two members you may use a modified version of a script provided by another team*
 
 ### Part-2 (day 2) Design the REST API
 
 #### Design the REST API
 
-*Design the actual REST API for the application* (using the guidelines
-from the slides) which will make it possible to operate on the Database
-via the façade.
+*Design the actual REST API for the application* (using the guidelines from the slides) which will make it possible to operate on the Database via the façade.
 
-The API should include all four CRUD operations + most of the business
-services described in the section "The Business Domain". The API
-description must include a specification of the required JSON-data, and
-it’s response to errors (see next section)
+The API should include all four CRUD operations + most of the business services described in the section "The Business Domain". The API description must include a specification of the required JSON-data, and it’s response to errors (see next section)
 
-  GET                                                 
-  --------------------------------------------------- ---------------------------------------------------------------------------------------------------------
-  api/person/complete                                 Return all Persons, with all details, as a JSON object (As in *JSON example-1)*
-  api/person/complete/id                              Return the Person (with the given id) with all details as a JSON object (as in *JSON example-1)*
-  api/person/contactinfo                              Return all Persons, with only contact info, as a JSON object (As in *JSON example-2)*
-  api/person/contactinfo/id                           Return the Person (with the given id) with only contact info, as a JSON object (As in *JSON example-2)*
-  ...                                                 
-  POST                                                
-  api/person                                          Create a new Person given a JSON object (as in *JSON example-1)*
-  Complete the API description for all services[^2]
+  |GET   |Description|            
+  |--|--|
+  |api/person/complete |                                Return all Persons, with all details, as a JSON object (As in *JSON example-1)*|
+  |api/person/complete/id |                             Return the Person (with the given id) with all details as a JSON object (as in *JSON example-1)*|
+  |api/person/contactinfo |                             Return all Persons, with only contact info, as a JSON object (As in *JSON example-2)*|
+  |api/person/contactinfo/id  |                         Return the Person (with the given id) with only contact info, as a JSON object (As in *JSON example-2)*|
+|  POST  | |          
+| api/person      |                                    Create a new Person given a JSON object (as in *JSON example-1)* |
+Complete the API description for all services.   
+(As a check for whether your API description is accurate enough, consider yourself in a situation where you were the API *user* having to write the client code, given only the API description. Or consider that you were going to outsource this part, and do the front-end part in parallel with this.)
 
 #### Error Handling
-
--   Complete the API description with a supplementary description of the
-    > response for erroneous scenarios.
-
--   The response must include a proper HTTP status code and a JSON
-    > response with a description of the error and (*only*, when in
-    > debug mode. Hint: use web.xml to declare this attribute) the
-    > Exception Stack Trace (if any).
+- Complete the API description with a supplementary description of the response for erroneous scenarios.
+- The response must include a proper HTTP status code and a JSON response with a description of the error and (*only*, when in debug mode. Hint: use web.xml to declare this attribute) the Exception Stack Trace (if any).
 
 #### Implement the REST API 
 
@@ -265,44 +200,28 @@ Bootstrap), JavaScript, DOM and AJAX (via fetch).
 Feel free to do this in any way you like, but a single page application
 that allows for reading, Creating Editing and Deleting a Person would be
 nice.
-
 Also consider page/pages like:
+- Get all persons with a given hobby
+- Get all persons living in a given city (i.e. 2800 Lyngby)
+- Get the count of people with a given hobby
+- Get a list of all zip codes in denmark
+- Get a list of companies with more than xx employes
 
--   Get all persons with a given hobby
+### Part-4 (day 4) 
+Complete the missing parts and upload to Digital Ocean.
 
--   Get all persons living in a given city (i.e. 2800 Lyngby)
-
--   Get the count of people with a given hobby
-
--   Get a list of all zip codes in denmark
-
--   Get a list of companies with more than xx employes
-
-### Part-4 (day 4) Complete the missing parts and upload to Digital Ocean.
-
-**Complete the missing parts**
-
-Complete the missing parts and deploy your project to Digital Ocean
-
-Background, REST-APIs, DTO's and JSON
-=====================================
-
-This CA involves the following skills:
-
--   Design/implement a RESTful API
-
--   Use JSON as a mean to transfer data between disparate systems
-
--   Object Relation Mapping (JPA) to simplify DataBase access
-
--   JavaScript and Ajax to build dynamic pages on the client (browser)
-
--   Deploy code to a cloud provider
+#### Background, REST-APIs, DTO's and JSON  
+*This CA involves the following skills:*
+- Design/implement a RESTful API
+- Use JSON as a mean to transfer data between disparate systems
+- Object Relation Mapping (JPA) to simplify DataBase access
+- JavaScript and Ajax to build dynamic pages on the client (browser)
+- Deploy code to a cloud provider
 
 The following pages will provide some background and hints which should
 help you in fulfilling this CA
 
-### Data Transfer Objects (DTO’s)
+#### Data Transfer Objects (DTO’s)
 
 An important thing to understand is that the diagram, given on on a
 previous page, represents the internal business logic on the server.
@@ -320,26 +239,18 @@ etc.). When transferring data between our services and clients however,
 this could easily be combined into a single object as sketched below
 (newlines added for readability):
 
+```json
 {
-
-"firstName": "xxx",
-
-"lastName" : "xxx",
-
-"email" : "xxx",
-
-"phones":
-\[{"number":"xx","description":"xx"},{"number":"xx","description":"xx"},..\]
-
-"street": "xxxx",
-
-"additionalInfo" : "xxxx",
-
-"zipcode": "nnnn",
-
-"city" : "xxxx"
-
+  "firstName": "xxx",
+  "lastName" : "xxx",
+  "email" : "xxx",
+  "phones": [{"number":"xx","description":"xx"},{"number":"xx","description":"xx"},..]
+  "street": "xxxx",
+  "additionalInfo" : "xxxx",
+  "zipcode": "nnnn",
+  "city" : "xxxx"
 }
+```
 
 *JSON example-1(hobbies left out)*
 
@@ -349,25 +260,20 @@ an example, let’s take a look at the diagram and imagine we needed
 contact information only for a client. Here we could return a JSON
 object as sketched below:
 
+```json
 {
-
-"id":1,
-
-"name": "Lars Mortensen",
-
-"email":"lam@lam.dk",
-
-"phones":
-\[{"number":"xx","description":"xx"},{"number":"xx","description":"xx"},..\]
-
+ "id":1,
+ "name": "Lars Mortensen",
+ "email":"lam@lam.dk",
+ "phones": [{"number":"xx","description":"xx"},{"number":"xx","description":"xx"},..]
 }
-
+```
 *JSON example-2*
 
 Objects, like the ones above, are often referred to as a Data Transfer
-Objects (DTO)[^3]
+Objects [(DTO)](http://en.wikipedia.org/wiki/Data_transfer_object)
 
-Another reason for defining DTO’s[^4] could be that we don’t want to
+Another reason for defining DTO’s could be that we don’t want to
 reveal the internal design so, as an example, we could rename all
 variables so e firstName could be fn and lastName ln etc.
 
@@ -375,7 +281,7 @@ The figure below is an attempt to visualize DTO’s and the difference
 between the actual business logic and what is exposed in JSON-objects
 via REST.
 
-![](media/image6.png){width="6.5in" height="2.263888888888889in"}
+![](../media/ca2_web_architecture.png)
 
 ### From Java to JSON and from JSON to Java
 
@@ -386,18 +292,21 @@ simple, using for example the Gson library.
 
 If we have a JSON String like:
 
+```json
 {"id":1,"name": "Lars
 Mortensen","email":[*lam@lam.dk*](mailto:lam@lam.dk), "phone" :
 "12345678"}
+```
 
 We can transform it into a matching Java object (assuming we have a Java
 Person class with the three attributes, and the JSON above as a string)
 as easy as:
 
-Person p = New Gson().fromJson(jsonString, Person.class);
+```java
+Person p = New Gson().fromJson(jsonString, Person.class); 
+```
 
-And we can transform a Person object into a string like: String
-jsonString = new Gson().toJson(p);
+And we can transform a Person object into a string like: `String jsonString = new Gson().toJson(p);`
 
 If you take a look at the document
 [*https://sites.google.com/site/gson/gson-user-guide*](https://sites.google.com/site/gson/gson-user-guide)
@@ -418,18 +327,3 @@ strategy to use. Add mapper classes like this, in a specific package
 classes.
 
 This is the recommended (simplest) way of handling JSON conversions
-
-[^1]: This should provide a Person with all details. When you build your
-    JSON for a specific REST CALL you decide for how much to include,
-    according to you API description
-
-[^2]: As a check for whether your API description is accurate enough,
-    consider yourself in a situation where you were the API *user*
-    having to write the client code, given only the API description. Or
-    consider that you were going to outsource this part, and do the
-    front-end part in parallel with this.
-
-[^3]: http://en.wikipedia.org/wiki/Data\_transfer\_object
-
-[^4]: In this CA we will refer to all objects exposed via the REST-API
-    as DTO’s

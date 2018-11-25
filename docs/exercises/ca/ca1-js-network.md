@@ -1,9 +1,8 @@
-**(Mini) Course Assignment 1 **
+# (Mini) Course Assignment 1
 
 **Basic JavaScript, DOM manipulation and Hosting**
 
-![](media/image7.png){width="4.619792213473316in"
-height="1.5370024059492564in"}
+![](../media/ca1_technologies.png)
 
 This mini CA expects you to create a few static HTML pages, including a
 number of JavaScript examples running 100% client side, that is without
@@ -11,17 +10,17 @@ any interaction with the backend.
 
 ***This CA will strengthen your skills and knowledge related to:***
 
--   Basic JavaScript
+- Basic JavaScript
 
--   JavaScript events
+- JavaScript events
 
--   JavaScript functions and callbacks
+- JavaScript functions and callbacks
 
--   Basic DOM manipulation via plain JavaScript
+- Basic DOM manipulation via plain JavaScript
 
--   How to set up a WEBsite with a personal domain
+- How to set up a WEBsite with a personal domain
 
--   How to set up a WEBsite to use HTTPS
+- How to set up a WEBsite to use HTTPS
 
 Hand-in & Reviews
 -----------------
@@ -74,8 +73,9 @@ HTTP**S**.
 
 ### Description of the pages
 
-**Main page**![](media/image12.png){width="1.2916666666666667in"
-height="1.3031999125109361in"}
+**Main page**
+
+![](../media/ca1_js_watch.png)
 
 This should include a short description of the project and the names + a
 picture of each member in the group. Somewhere on the page you must
@@ -84,8 +84,7 @@ link to the Lynda.com tutorial).
 
 Finally the page should include links to the following three pages (that
 each should include a link back to the main
-page).![](media/image11.png){width="1.1010258092738407in"
-height="1.3020833333333333in"}
+page).![](../media/ca1_calc.png)
 
 **Page1 - Calculator**
 
@@ -95,10 +94,9 @@ part it further explained in the exercises for JavaScript day-2.
 **Page2 - Typing Speed Tester**
 
 This page should include a typing speed tester that will allow users to
-test their “typing speed”. Check out the Lynda.com video for further
-details (and lots of
-hints).![](media/image10.png){width="3.2636570428696414in"
-height="2.89790135608049in"}
+test their “typing speed”. Check out the Lynda.com video for further details (and lots of hints).  
+
+![](../media/ca1_typing_speed.png)
 
 Important: Here you must prove that you can twist existing code to your
 own need. Compared to the Lynda example, your version should pick a
@@ -109,32 +107,34 @@ This would mean that users sees a “new” exercise each time they press
 “Start over”
 
 ### \
-**Page3 - Dynamic UI manipulation**![](media/image14.png){width="4.024073709536308in" height="2.519928915135608in"}
+**Page3 - Dynamic UI manipulation**
+
+![](../media/ca1_dom_manipulation.png)
 
 Use the start code (JS, CSS and HTML) given below to complete the
 following task (sketched in the figure to the right)
 
--   Show all the boys
+- Show all the boys
 
--   Show all the girls
+- Show all the girls
 
--   Show all (don’t create a list for this but use the concat function)
+- Show all (don’t create a list for this but use the concat function)
 
--   Add a boy and a girl (should update relevant UI-parts)
+- Add a boy and a girl (should update relevant UI-parts)
 
--   Remove a boy or a girl from the top of the list
+- Remove a boy or a girl from the top of the list
 
--   Remove a boy or a girl from either the top or bottom of the list,
+- Remove a boy or a girl from either the top or bottom of the list,
     > depending on the selection of the two radio buttons
 
--   Reverse all names in the “all” part.
+- Reverse all names in the “all” part.
 
--   Sort all names in the “all” part
+- Sort all names in the “all” part
 
--   Sort all names correctly independent of spelling (whether first
+- Sort all names correctly independent of spelling (whether first
     > character is capitalized)
 
--   Sort all names ascending when the button is pressed first and then
+- Sort all names ascending when the button is pressed first and then
     > descending when the button is pressed next, and so on, back and
     > forth between ascending and descending
 
@@ -142,108 +142,109 @@ Hint: This exercise expect that you have completed the exercise [*The
 JavaScript
 Array*](https://docs.google.com/document/d/1-RF3dvvejvxwMzRzyXrVtIEoJHUcY6oMbTsVMg50lTM/edit?usp=sharing).
 
-+-----------------------------------+-----------------------------------+
-| **JavaScript**                    | **HTML**                          |
-|                                   |                                   |
-| var boys = \["Peter", "lars",     | &lt;div class="container"&gt;\    |
-| "Ole"\];                          | &lt;h2&gt;DOM manipulation via    |
-|                                   | plain JavaScript&lt;/h2&gt;\      |
-| var girls =                       | &lt;h3&gt;And getting used to the |
-| \["Janne","hanne","Sanne"\];      | JavaScript Array&lt;/h3&gt;\      |
-|                                   | &lt;div class='inputs'&gt;\       |
-| **CSS**                           | &lt;input id="newboy"             |
-|                                   | placeholder='Add boy' /&gt;       |
-| h2 {color: steelblue;}            |                                   |
-|                                   | &lt;button id='addboy'&gt;Add     |
-| h3 {color: steelblue;             | Boy&lt;/button&gt;\               |
-|                                   | &lt;input id="newgirl"            |
-| margin-top: 0px;                  | placeholder='Add girl' /&gt;      |
-|                                   |                                   |
-| margin-bottom: 1em;}              | &lt;button id = 'addgirl'&gt;Add  |
-|                                   | Girl&lt;/button&gt;\              |
-| .container {                      | &lt;/div&gt;\                     |
-|                                   | &lt;div class='inputs'&gt;\       |
-| font-family:sans-serif;           | &lt;button                        |
-|                                   | id='removeboy'&gt;Remove          |
-| margin:auto;width:60%;}           | boy&lt;/button&gt;\               |
-|                                   | &lt;button                        |
-| .lists {                          | id='removegirl'&gt;Remove         |
-|                                   | girl&lt;/button&gt;\              |
-| border: 1px solid;                | &lt;Input type='radio'            |
-|                                   | name='direction' id='first'/&gt;  |
-| border-color:                     | Remove first\                     |
-|                                   | &lt;Input type='radio'            |
-| steelblue;                        | name='direction' id='last'/&gt;   |
-|                                   | Remove last\                      |
-| border-radius: 3px;               | &lt;button                        |
-|                                   | id='reverse'&gt;Reverse           |
-| float:left; width: 12em;          | all&lt;/button&gt;\               |
-|                                   | &lt;button id='sort'&gt;Sort      |
-| margin-right:2px;}                | all&lt;/button&gt;\               |
-|                                   | &lt;/div&gt;\                     |
-| .lists h4 {                       | &lt;div class="lists"&gt;\        |
-|                                   | &lt;h4&gt;Boys&lt;/h4&gt;\        |
-| text-align: center;               | &lt;div                           |
-|                                   | id="boys"&gt;&lt;/div&gt;\        |
-| color: steelblue}                 | &lt;/div&gt;\                     |
-|                                   | &lt;div class="lists"&gt;\        |
-| .lists div {                      | &lt;h4 style="text-align:         |
-|                                   | center"&gt;Girls&lt;/h4&gt;\      |
-| padding: 3px;text-align: center;} | &lt;div class="names"             |
-| .inputs {                         | id="girls"&gt;&lt;/div&gt;\       |
-|                                   | &lt;/div&gt;\                     |
-| margin-bottom:12px;}              | &lt;div class="lists"&gt;\        |
-|                                   | &lt;h4&gt;All&lt;/h4&gt;\         |
-|                                   | &lt;div id="all"&gt;&lt;/div&gt;\ |
-|                                   | &lt;/div&gt;\                     |
-|                                   | &lt;/div&gt;                      |
-+-----------------------------------+-----------------------------------+
+**javascript**:
+```js
+var boys = ["Peter", "lars", "Ole"];
+var girls = ["Janne","hanne","Sanne"];
+```
+**css**
+```css
+h2 {color: steelblue;}
+h3 {color: steelblue;
+    margin-top: 0px;
+    margin-bottom: 1em;}
+.container {
+    font-family:sans-serif; 
+    margin:auto;width:60%;}
+.lists {
+    border: 1px solid; 
+    border-color:
+    steelblue;
+    border-radius: 3px; 
+    float:left; width: 12em;
+    margin-right:2px;} 
+.lists h4 {
+    text-align: center; 
+    color: steelblue} 
+.lists div {
+    padding: 3px;text-align: center;} .inputs {
+    margin-bottom:12px;}
+```
+**html**
+```html
+<div class="container">
+  <h2>DOM manipulation via plain JavaScript</h2>
+  <h3>And getting used to the JavaScript Array</h3>
+  <div class='inputs'>      
+  <input id="newboy" placeholder='Add boy' />
+  <button id='addboy'>Add Boy</button>
+  <input id="newgirl" placeholder='Add girl' />
+  <button id = 'addgirl'>Add Girl</button>
+  </div>
+  <div class='inputs'>
+  <button id='removeboy'>Remove boy</button>
+  <button id='removegirl'>Remove girl</button>
+  <Input type='radio' name='direction' id='first'/>  Remove first
+  <Input type='radio' name='direction' id='last'/> Remove last
+  <button id='reverse'>Reverse all</button>
+  <button id='sort'>Sort all</button>
+  </div>
+  <div class="lists">
+  <h4>Boys</h4>
+  <div id="boys"></div>
+  </div>
+  <div class="lists">
+  <h4 style="text-align: center">Girls</h4>
+  <div class="names" id="girls"></div>
+  </div>
+  <div class="lists">
+  <h4>All</h4>
+  <div id="all"></div>
+```
 
-**Page4 - Dynamic UI manipulation with data obtained via fetch**
+**Page4:** - Dynamic UI manipulation with data obtained via fetch
 
 Only focus on this exercise if your group is yellow or red
 
-a)
-
-Enter this URL in a browser and observe the result:
+a) Enter this URL in a browser and observe the result:
 [*https://jsonplaceholder.typicode.com/users/1*](https://jsonplaceholder.typicode.com/users/1)
 
 What is it, you get
-back?![](media/image2.png){width="2.3469903762029745in"
-height="1.8374464129483814in"}
+back?
 
+![](../media/ca1_get_back.png)
 Change the number at the end of the URL to any number &lt;= 10 and
 observe the result.
 
 Implement a page, as sketched in this figure, which should fetch the
 requested user, and render his data.
 
-b)![](media/image8.png){width="2.8051443569553807in"
-height="4.217806211723534in"}
+b)
 
 Enter this URL in a browser and observe the result:
 [*https://jsonplaceholder.typicode.com/users*](https://jsonplaceholder.typicode.com/users)
 
+
+
 Use this URL, and add a new button to the page as sketched in figure.
 When pressed, it should fetch all persons and render name + phone in a
-table
+table: 
+![](../media/ca1_get_all.png)
 
-Deployment
+**Deployment**
 
 You are expected to deploy your pages on a Tomcat Server accessible via
 a personal domain name (use one of the domains from the group, or if you
-are ambitious and proud of your group, buy a domain name for the group
-;-)
+are ambitious and proud of your group, buy a domain name for the group.
 
-If you feel you belong to the yellow or red groups the pages must be
-accessible *ONLY* via a **HTTPS** connection.
+If you feel you belong to the yellow or red groups the pages must be accessible *ONLY* via a **HTTPS** connection.
 
 What is expected for the presentation Monday
 
-*Note this presentation does also include exercises from week-2*
+*Note this review presentation should also include exercises from week-2*
 
 You can each earn up to 16 study points for this mini-CA, depending on
-your presentation monday (February 19th.).
+your presentation monday.
 
 ***This is what we expect from you.***
 
