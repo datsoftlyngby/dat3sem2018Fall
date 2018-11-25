@@ -1,4 +1,5 @@
 # Links to all the exercises:
+
 ## CAs
 - [CA1](ca/ca1-js-network.md)
 - [CA2](ca/ca2-krak.md)
@@ -12,7 +13,9 @@
 - [SP5](sp/sp5-js.md)
 - [SP6](sp/sp6-react1.md)
 - [SP7](sp/sp7-react2.md)
+
 ## Daily exercises
+
 ### Threads
 - [Day 1](daily/THREADS-1_.md)
 - [Day 2](daily/THREADS-2_.md)
@@ -50,3 +53,16 @@
 - [Day 1](daily/REACT_W2D1_ROUTER_2.md)
 - [Day 2](daily/REACT_W2D2_Security.md)
 - [Day 3](daily/REACT_W2D3_Native.md)
+
+### Collection of all Exam preparation exercises:  
+1. [Threads 1: Threads and sockets](../exam_prep/exprep_threads_socket.md)  
+2. [Threads 2: Producer Consumer pattern](../exam_prep/exprep_threads_prod_cons.md)
+3. [ORM 1](../exam_prep/exprep_jpa1.md)  
+4. [ORM 2](../exam_prep/exprep_jpql.md)  
+5. [ORM 3 - RED ONLY](../exam_prep/exprep_inherit.md)
+6. [Rest 1](../exam_prep/exprep_rest_api.md)  
+7. [Rest 2](../exam_prep/exprep_rest_json.md)  
+8. [Javascript 1](../exam_prep/exprep_js1.md)  
+9. [Javascript 2](../exam_prep/exprep_js_ajax.md)  
+10. [React fetch](../exam_prep/exprep_react_fetch.md)
+11. [React router](../exam_prep/exprep_react_router.md)
