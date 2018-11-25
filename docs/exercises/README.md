@@ -41,8 +41,8 @@
 - [Day 1](daily/REACT_W1D1_ES6.md)
 - [Day 2](daily/REACT_W1D2_KiloPound_Converter.md)
 - [Day 2 extra](daily/REACT_W1D2_photogallery.md)
-- [Day 3](daily/REACT_W1D3_CRUD.md)
-- [Day 3 extra](daily/REACT_W1D4_Large_data.md)
+- [Day 3](daily/REACT_W1D3_fetch.md) AND [Day 3 extra](daily/REACT_W1D3_CRUD.md)  
+- [Day 4](daily/REACT_W1D4_Large_data.md)
 
 
 ### React2

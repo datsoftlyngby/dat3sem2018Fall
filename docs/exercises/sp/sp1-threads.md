@@ -1,80 +1,38 @@
----
-title: '[]{#_dm6h62ksxhp .anchor}SP-1 Threads - Day 4+5'
----
+# SP 1: Threads
+ 
+**Before you start**
+ 
+- Make sure you are in a group.
+- Make sure, before Friday 16.00, that you have decided a strategy for who presents which learning objectives at the review on monday, and remember to add this info to the review-plan.
 
-Before you start
-----------------
-
--   Make sure you are in a group.
-
--   Make sure, before Friday 16.00, that you have decided a strategy for
-    > who presents what, next monday, and remember to add this info to
-    > the review-plan.
-
-Part-1
-------
+## Part 1
 
 Make sure you have completed all exercises (relative to your
-colour-ambition) from day 1-3, before you start with the the following.
+colour-ambition) from day 1-3  
+[Day 1](../daily/THREADS-1_basics.md)  
+[Day 2](../daily/THREADS-2_prod_cons.md)  
+[Day 3](../daily/THREADS-3_callables.md)  
 
-Exercise 1 (race condition)
----------------------------
+## Part 2
 
-![](media/image4.png){width="5.021367016622922in"
-height="1.4520745844269467in"}
+[Exam preparation 1: Threads and sockets](../exam_prep/exprep_threads_socket.md)  
+[Exam preparation 2: Producer Consumer pattern](../exam_prep/exprep_threads_prod_cons.md)  
 
-Use the code in the package day1.turnstiles as start code for this
-exercise. This program simulates a large football stadium with many
-turnstiles that each updates a shared counter, for each spectator that
-passes a turnstile.
+These are what we call an “exam preparation exercise”. It is meant to represent the “level” and “form” of what you can get for the real exam.
 
-Initially, the code is setup to simulate 40 turnstiles, each (running in
-a separate thread) simulates that 1000 spectators pases.
+## Part 3 (race condition) 
+*Red Only*
 
-Execute the code and observe the result of the shared counter.
+Execute the main code in either [BankApp.java](BankApp.java) or [BankAppExecutor.java](BankAppExecutor.java)
 
-Questions/tasks:
+The program includes a method `executeTransactions()` which executes a series of transactions on a shared account object and prints true/false depending on the expected outcome.
 
-**a)** Do you get the right result?
-
-**b)** What is the problem in the code? (It’s there whether you get the
-right result or not)
-
-**c)** Solve the problem using synchronization techniques.
-
-Exercise 2 ![](media/image3.png){width="2.425in" height="0.5215277777777778in"}
--------------------------------------------------------------------------------
-
-[*Is
-here*](https://docs.google.com/document/d/13f18buNu2WgTocikJ2Quj6TaetkujWouRCaibq2VCu8/edit?usp=sharing)
-
-This is what we call an “exam preparation exercise”. It is meant to
-represent the “level” and “form” of what you can get for the real exam.
-
-Exercise 3 (race condition) Red Only
-
-Execute the main code in either day1.bank.BankApp.java or
-day1.bank.BankAppExecutor.java
-
-The program includes a method executeTransactions () which executes a
-series of transactions on a shared account object and prints true /
-false depending on the expected outcome.
-
-Identify places in the code where it "goes wrong".
-
-What should the closing balance be?
-
-Experiment: Increase the number of calls of executeTransactions () or
-the number of threads
-
-and observe the effect.
-
-Observe that there are two versions of the main() method, one that
-creates threads in a traditional way, and one using an ExecutorService
-(the recommended way).
+- Identify places in the code where it "goes wrong".
+- What should the closing balance be?
+- Experiment: Increase the number of calls of executeTransactions () or
+the number of threads and observe the effect.
+- Observe that there are two versions of the main() method, one that creates threads in a traditional way, and one using an ExecutorService (the recommended way).
 
 Solve the problem in the Bank program:
-
-1)  Using the traditional synchronization
-
-2)  Using a java.util.concurrent.locks.ReentrantLock
+1) Using the traditional synchronization
+2) Using a java.util.concurrent.locks.ReentrantLock

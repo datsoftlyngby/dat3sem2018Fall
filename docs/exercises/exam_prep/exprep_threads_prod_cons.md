@@ -1,33 +1,23 @@
-Thread Programming
-![](media/image4.png)
+# Thread Programming
+![](../media/image4.png)
 
 ### General part
 
-
 Write 1-5 lines of text for each bullet:
 
--   When and why will we use Threads in our programs?
-
--   What is the Race Condition Problem and how can you solve it?
-
--   Explain the Producer/Consumer-problem and how to solve it in modern
-    Java Programs
-
--   Explain what Busy Waiting is and why it's a bad thing in a modern
-    software system.
-
--   Describe Java's *BlockingQueue* interface, relevant implementations
-    and methods relevant for the producer consumer problem.
+- When and why will we use Threads in our programs
+- What is the Race Condition Problem and how can you solve it?
+- Explain the Producer/Consumer-problem and how to solve it in modern Java Programs
+- Explain what Busy Waiting is and why it's a bad thing in a modern software system.
+- Describe Java's *BlockingQueue* interface, relevant implementations and methods relevant for the producer consumer problem.
 
 ### Practical part
 
-For this exercise, we will use the Fibonacci implementation to calculate
-Fibonacci numbers. The Fibonacci number itself is not interesting for
-this task, only the fact that the execution time for the algorithm grows
+For this exercise, we will use the Fibonacci implementation to calculate Fibonacci numbers. The Fibonacci number itself is not interesting for this task, only the fact that the execution time for the algorithm grows
 exponentially with the number passed in.
 
 #### Implement the following design:
-![](media/prod_cons.png)
+![](../media/prod_cons.png)
 
 1.  A thread (in this case the main-thread) must initially fill a shared
 data structure S1 with numbers from which the corresponding Fibonacci numbers should be calculated.

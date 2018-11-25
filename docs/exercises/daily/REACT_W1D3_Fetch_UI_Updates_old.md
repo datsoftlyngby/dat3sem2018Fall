@@ -2,14 +2,9 @@ Patterns to handle CRUD via fetch and React
 ===========================================
 
 The “exercise” focuses on these problems:
-
 -   Where do we store data (locally) in a React Application
-
--   How do we fetch data, using fetch(..), and how do we trigger a
-    > re-render when data has been fetched (asynchronously)
-
--   How do we update or local data to reflect changes that might have
-    > happened (by other clients) in the backend
+-   How do we fetch data, using fetch(..), and how do we trigger a re-render when data has been fetched (asynchronously)
+-   How do we update or local data to reflect changes that might have happened (by other clients) in the backend
 
 It will ( we will do this together in the class) provide a number of
 strategies you can use for all projects with problems as those outlined
