@@ -9,6 +9,8 @@
 
 [Studypoints](https://studypoints.dk/)
 
+[Alle øvelser her](exercises/README.md)
+
 #### Skema med links til læringsmaterialet
 
 
