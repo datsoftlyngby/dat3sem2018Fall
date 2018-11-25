@@ -14,25 +14,10 @@ This CA builds a proof of concept solution, for what could have been a
 there will be a notable difference in how far the different teams will
 come.
 
-***This CA will strengthen your skills and knowledge related to:***
+***This CA will strengthen your skills and knowledge related to:*** Use an Object Relational Mapper (JPA) to map between Java Objects and Relational Tables Use an Object Relational Mapper (JPA) to map Java Inheritance to Relational Tables Expose business functionality via a REST-API and JSON. Handle erroneous scenarios via a REST-API and JSON Build dynamic web-pages that builds content via JavaScript,DOM and AJAX up against a backend REST API.
 
--   Use an Object Relational Mapper (JPA) to map between Java Objects and Relational Tables
-
--   Use an Object Relational Mapper (JPA) to map Java Inheritance to Relational Tables
-
--   Expose business functionality via a REST-API and JSON.
-
--   Handle erroneous scenarios via a REST-API and JSON
-
--   Build dynamic web-pages that builds content via JavaScript,DOM and AJAX up against a backend REST API.
-
-#### Hand-in
-
--   The code must be made available via Github.
-
--   Your web-server must be available via a personal domain name and *only* accessible via https.
-
--   You are expected to be able to explain/defend the design choices you have made. For example: your choice of inheritance strategy and use of uni/bi-directional relationships should be clear to you.
+#### Hand-in 
+The code must be made available via Github. Your web-server must be available via a personal domain name and *only* accessible via https. You are expected to be able to explain/defend the design choices you have made. For example: your choice of inheritance strategy and use of uni/bi-directional relationships should be clear to you.
 
 What is expected for the presentation Monday
 
@@ -63,14 +48,9 @@ each earn additional *4 BONUS study points*.
 ### How to spend your four days
 
 A proposed schedule to develop the system over 2 consecutive two-day
-mini sprints is sketched below:
+mini sprints is sketched below: Day-1+2: *Before the end of day two* should have a working restful api. Day 3+4: Complete the Front-end, missing back-end parts and deploy the system
 
--   Day-1+2: *Before the end of day two* should have a working restful api.
-
--   Day 3+4: Complete the Front-end, missing back-end parts and deploy the system
-
-How to complete this CA in only four days
------------------------------------------
+## How to complete this CA in only four days
 
 This CA is time intensive and if you are pressed for time, *it is more
 important that you complete a little bit of* *all tasks*, instead of
@@ -81,8 +61,7 @@ in only four days. So you must take advantage of the fact that you are
 three or four persons in a team and distribute (sprint) tasks between
 team members.
 
-Before you start: 
-------------------
+## Before you start: 
 
 *Read the entire assignment* (obviously), and spend time figuring out
 how to divide the work between you, and if necessary design
@@ -95,9 +74,7 @@ new information.
 
 ## Project Description
 
-
 **The Business Domain**
-
 
 A new company plans to join the market for *information about people and
 companies* (like Krak, De Gule Sider etc.). They plan to offer services
@@ -156,13 +133,9 @@ possible, so we need (lots of) Test Data
 
 **Hints:**
 
-Use the script
-[***populate.sql***](https://github.com/Cphdat3sem2017f/StartcodeExercises/blob/master/CA1/populate.sql)
-to set up values for all Danish zip-codes.
+Use the script: [***populate.sql***](https://github.com/Cphdat3sem2017f/StartcodeExercises/blob/master/CA1/populate.sql) to set up values for all Danish zip-codes.
 
-Use the study point exercise *exam-preparation\_REST\_JSON.pdf* as an inspiration of; how to create large amounts of test data (don't create JSON, but an SQL-script)
-
-*For a Group with only two members you may use a modified version of a script provided by another team*
+Use the study point exercise [](../exam_prep/exprep_rest_json.md) as an inspiration of; how to create large amounts of test data (don't create JSON, but an SQL-script)
 
 ### Part-2 (day 2) Design the REST API
 
@@ -172,14 +145,14 @@ Use the study point exercise *exam-preparation\_REST\_JSON.pdf* as an inspiratio
 
 The API should include all four CRUD operations + most of the business services described in the section "The Business Domain". The API description must include a specification of the required JSON-data, and it’s response to errors (see next section)
 
-  |GET   |Description|            
-  |--|--|
-  |api/person/complete |                                Return all Persons, with all details, as a JSON object (As in *JSON example-1)*|
+  |GET   | Description|            
+  |---- |---- |
+  |api/person/complete |      Return all Persons, with all details, as a JSON object (As in *JSON example-1)*|
   |api/person/complete/id |                             Return the Person (with the given id) with all details as a JSON object (as in *JSON example-1)*|
   |api/person/contactinfo |                             Return all Persons, with only contact info, as a JSON object (As in *JSON example-2)*|
   |api/person/contactinfo/id  |                         Return the Person (with the given id) with only contact info, as a JSON object (As in *JSON example-2)*|
 |  POST  | |          
-| api/person      |                                    Create a new Person given a JSON object (as in *JSON example-1)* |
+| api/person      |  Create a new Person given a JSON object (as in *JSON example-1)* |
 Complete the API description for all services.   
 (As a check for whether your API description is accurate enough, consider yourself in a situation where you were the API *user* having to write the client code, given only the API description. Or consider that you were going to outsource this part, and do the front-end part in parallel with this.)
 
@@ -198,8 +171,7 @@ Implement a number of web pages that uses the API, using HTML, (CSS and
 Bootstrap), JavaScript, DOM and AJAX (via fetch).
 
 Feel free to do this in any way you like, but a single page application
-that allows for reading, Creating Editing and Deleting a Person would be
-nice.
+that allows for reading, Creating Editing and Deleting a Person would be nice.
 Also consider page/pages like:
 - Get all persons with a given hobby
 - Get all persons living in a given city (i.e. 2800 Lyngby)
