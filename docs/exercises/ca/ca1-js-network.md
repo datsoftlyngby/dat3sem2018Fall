@@ -9,21 +9,14 @@ number of JavaScript examples running 100% client side, that is without
 any interaction with the backend.
 
 ***This CA will strengthen your skills and knowledge related to:***
-
 - Basic JavaScript
-
 - JavaScript events
-
 - JavaScript functions and callbacks
-
 - Basic DOM manipulation via plain JavaScript
-
 - How to set up a WEBsite with a personal domain
-
 - How to set up a WEBsite to use HTTPS
 
-Hand-in & Reviews
------------------
+## Hand-in & Reviews
 
 The server must be hosted and the URL must be provided to us by putting
 it in the review plan documents for your class. URLs:
@@ -35,7 +28,7 @@ URLs:
 Times:
 [*ClassB*](https://docs.google.com/spreadsheets/d/1m44DXpp-kcUK2TMKmlDDL9N68IFPyxuSx_L6Q7ZfAo4/edit?usp=sharing)
 
-How to complete this CA in the given time
+### How to complete this CA in the given time
 -----------------------------------------
 
 You should however not commit/push any code before it has been reviewed
@@ -45,22 +38,16 @@ of all of you.
 If you feel your group belong to the “greens” you can skip parts marked
 with yellow or red.
 
-  -- --
-     
-  -- --
 
-Prerequisites
-=============
+**Prerequisites**
 
 Before starting on this CA, you should insist that all members in the
 group prepare for the CA-work by working with the exercises given for
 JavaScript day 1+2 before the start of the CA. In order to complete some
 of tasks given in the following, it is expected that you have spent some
-time with this JavaScript tutorial on
-[*Lynda.com*](https://www.lynda.com/JavaScript-tutorials/Welcome/574716/612017-4.html?srchtrk=index%3a3%0alinktypeid%3a2%0aq%3ajavascript%0apage%3a1%0as%3arelevance%0asa%3atrue%0aproducttypeid%3a2).
+time with this JavaScript tutorial on [*Lynda.com*](https://www.lynda.com/JavaScript-tutorials/Welcome/574716/612017-4.html?srchtrk=index%3a3%0alinktypeid%3a2%0aq%3ajavascript%0apage%3a1%0as%3arelevance%0asa%3atrue%0aproducttypeid%3a2).
 
-Project Description
-===================
+## Project Description
 
 There is no business model involved with this CA. Your task will be to
 produce a number of static HTML pages with the sole purpose of
@@ -112,31 +99,17 @@ This would mean that users sees a “new” exercise each time they press
 ![](../media/ca1_dom_manipulation.png)
 
 Use the start code (JS, CSS and HTML) given below to complete the
-following task (sketched in the figure to the right)
-
+following task (sketched in the figure above)
 - Show all the boys
-
 - Show all the girls
-
 - Show all (don’t create a list for this but use the concat function)
-
 - Add a boy and a girl (should update relevant UI-parts)
-
 - Remove a boy or a girl from the top of the list
-
-- Remove a boy or a girl from either the top or bottom of the list,
-    > depending on the selection of the two radio buttons
-
+- Remove a boy or a girl from either the top or bottom of the list, depending on the selection of the two radio buttons
 - Reverse all names in the “all” part.
-
 - Sort all names in the “all” part
-
-- Sort all names correctly independent of spelling (whether first
-    > character is capitalized)
-
-- Sort all names ascending when the button is pressed first and then
-    > descending when the button is pressed next, and so on, back and
-    > forth between ascending and descending
+- Sort all names correctly independent of spelling (whether first character is capitalized)
+- Sort all names ascending when the button is pressed first and then descending when the button is pressed next, and so on, back and forth between ascending and descending
 
 Hint: This exercise expect that you have completed the exercise [*The
 JavaScript
@@ -248,16 +221,8 @@ your presentation monday.
 
 ***This is what we expect from you.***
 
-1.  Each member in the group must demonstrate and explain an equal share
-    > of the learning objectives from the past 2 weeks. You will base
-    > this on the exercises you have done in this period.
+1. Each member in the group must demonstrate and explain an equal share of the learning objectives from the past 2 weeks. You will base this on the exercises you have done in this period.
 
-2.  In the review plan sheet you must paste a link to a google doc with
-    > a plan of who in the group does what in the review presentation
-    > (remember that it is your responsibility to create a demonstration
-    > of all the learning objectives at the review) also explaining how
-    > far you came, problems you might have had, and important, who did
-    > what.
+2. In the review plan sheet you must paste a link to a google doc with a plan of who in the group does what in the review presentation (remember that it is your responsibility to create a demonstration of all the learning objectives at the review) also explaining how far you came, problems you might have had, and important, who did what.
 
-3.  Also make a list of things that you would like to ask at the reviews
-    > (think about things you want to explore further.
+3. Also make a list of things that you would like to ask at the reviews (think about things you want to explore further.
