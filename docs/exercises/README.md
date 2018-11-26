@@ -17,8 +17,8 @@
 ## Daily exercises
 
 ### Threads
-- [Day 1: threads begin](daily/THREADS-1_.md)
-- [Day 2: threads 2](daily/THREADS-2_.md)
+- [Day 1: threads begin](daily/THREADS-1_basics.md)
+- [Day 2: threads 2](daily/THREADS-2_prod_cons.md)
 - [Day 3: callables, futures, executor](daily/THREADS-3_callables.md)
 
 ### Network
