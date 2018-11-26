@@ -28,7 +28,7 @@
 ### ORM
 - [Day 1: jpa basics](daily/JPA-1_basics.md)
 - [Day 2: relationships](daily/JPA-2_relationships.md)
-- [Day 3: jpql](daily/JPS-3_jpql.md)
+- [Day 3: jpql](daily/JPA-3_jpql.md)
 
 ### Rest
 - [Day 1: basics](daily/REST_basics.md)
