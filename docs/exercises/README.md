@@ -57,7 +57,7 @@
 2. [Threads 2: Producer Consumer pattern](exam_prep/exprep_threads_prod_cons.md)
 3. [ORM 1](exam_prep/exprep_jpa1.md)  
 4. [ORM 2: jpql](exam_prep/exprep_jpql.md)  
-5. [ORM 3 - RED ONLY: inheritance](exam_prep/exprep_inherit.md)
+5. [ORM 3 - RED ONLY: inheritance](exam_prep/exprep_jpa_inherit.md)
 6. [Rest 1: basics](exam_prep/exprep_rest_api.md)  
 7. [Rest 2: json](exam_prep/exprep_rest_json.md)  
 8. [Javascript 1: basics](exam_prep/exprep_js1.md)  
