@@ -1,6 +1,6 @@
 # Executors, Callables and Futures.
 
-## First
+### Initial setup
 Copy the start code from file on [*github*](https://github.com/Cphdat3sem2018f/week1-threads/blob/master/code/SequentialPinger):
 
 Create a new plain Java Maven Project, and add the SequentalPinger class to the project.
@@ -42,7 +42,6 @@ You can set a timeout value on the connection object (preferably) via its `setCo
 If you implement this option, make sure to add an extra status value
 "TIMEOUT" which must be reported in these cases (together with the
 URL)
-![](media/image2.png)
 
 ### Exercise 2 (do this only if you have the time)
 
