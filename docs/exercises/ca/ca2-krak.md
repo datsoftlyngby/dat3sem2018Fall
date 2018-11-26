@@ -135,7 +135,7 @@ possible, so we need (lots of) Test Data
 
 Use the script: [***populate.sql***](https://github.com/Cphdat3sem2017f/StartcodeExercises/blob/master/CA1/populate.sql) to set up values for all Danish zip-codes.
 
-Use the study point exercise [](../exam_prep/exprep_rest_json.md) as an inspiration of; how to create large amounts of test data (don't create JSON, but an SQL-script)
+Use the study point exercise [exam prep: rest and json](../exam_prep/exprep_rest_json.md) as an inspiration of how to create large amounts of test data (don't create JSON, but an SQL-script)
 
 ### Part-2 (day 2) Design the REST API
 
