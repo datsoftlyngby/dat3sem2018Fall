@@ -23,7 +23,7 @@
 
 ### Network
 - [Day 1: http](daily/NW_1_HTTP.md)
-- [Day 2: nginx](daily/NW_2_nginx.md)
+- [Day 2: nginx](https://docs.google.com/document/d/1bDjWf_Y39p9lLMRxUD1a_dg2DwwCYPhk0w2ryQFcnJw/edit?usp=sharing)
 
 ### ORM
 - [Day 1: jpa basics](daily/JPA-1_basics.md)
