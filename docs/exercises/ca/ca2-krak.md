@@ -21,29 +21,13 @@ The code must be made available via Github. Your web-server must be available vi
 
 What is expected for the presentation Monday
 
-You can each earn up to 20 study points for CA 2, depending on how far you have come (your ambitions/color taken into account), and your
-presentation monday (March 19th.)
+You can each earn up to 20 study points for CA 2, depending on how far you have come (your ambitions/color taken into account), and your presentation monday
 
 ***This is what we expect from you.***
 
-1.  An introduction + demonstration from the group, explaining how far you came, problems you might have had, and important, who did what.
+1. An introduction + demonstration from the group, explaining how far you came, problems you might have had, and important, who did what.
 
-2.  After that we expect each member to introduce a part of the CA using the “right terms” and if needed, focusing on parts where you would like our feedback.
-
-### How and When to hand-in
-
-Send a mail to[*iwantstudypoints@gmail.com*](mailto:iwantstudypoints@gmail.com), with
-the class + *full name* of *all members in the team* + the link to your
-server and the link to your github repository. No later than **Sunday
-(18.03.2018) before 16.00.**
-
-### How to get even more studypoints :-)
-
-We would really like to receive your *feedback* related to flow-2.
-
-If you include a section marked: FEEDBACK in this mail, with comments;
-either from each member in, or alternatively from the team, you will
-each earn additional *4 BONUS study points*.
+2. After that we expect each member to introduce a part of the CA using the “right terms” and if needed, focusing on parts where you would like our feedback.
 
 ### How to spend your four days
 
