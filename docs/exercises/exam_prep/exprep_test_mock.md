@@ -1,5 +1,5 @@
 # Test and Mocking with JUnit, Mockito and RestAssured
-![](media/image4.png)
+![](../media/image4.png)
 
 ### General part
 - Explain fundamental topics related to software testing like "test first" vs. "test after"
@@ -14,7 +14,7 @@
 something you can test, and then use JUnit and Mockito to verify both
 state and behaviour of the SUT (System Under Test).*
 
-![](media/sut.png)
+![](../media/sut.png)
 
 ### Practical part
 
@@ -41,12 +41,12 @@ see the output.
 Try and change the URL, and execute again. You should see this output:
 
 `#####################################################################################
+
 This simulates that a REAL EMAIL was sent to: admin@jokes.com with this text:
 There is a problem with the server: http://api.icndb.com/jokes/random
 #####################################################################################`
 
-It simulates that an email has been sent. Interpret it as that a *real
-email was sent*.
+It simulates that an email has been sent. Interpret it as that a *real email was sent*.
 
 **2)** Include the required dependency to your pom-file to use Mockito
 
@@ -65,7 +65,7 @@ called correctly
 email was sent for a failing server (without actually sending the mail).
 
 **6)** Implement a simple Rest service which used like this
-api/jokes/getourstolenjoke will return a JSON response with the Joke
+`api/jokes/getourstolenjoke` will return a JSON response with the Joke
 fetched from the original joke
 
 **7)** Implement a *simple integration* test which should verify the

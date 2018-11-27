@@ -1,12 +1,10 @@
-# REST and REST APIs![](media/image4.png)
+# REST and REST APIs
+![](../media/image4.png)
 
 ### General part
-
--   Elaborate on some of the characteristics of REST, like: Stateless,
-    Cacheable, Layered System, Uniform Interface etc.
--   Explain the benefit(s) from having a backend that exposes all data
-    to clients via a REST-API
--   Elaborate on how JSON or XML supports communication between subsystems, even when the subsystems are implemented on diﬀerent platforms.
+- Elaborate on some of the characteristics of REST, like: Stateless, Cacheable, Layered System, Uniform Interface etc.
+- Explain the benefit(s) from having a backend that exposes all data to clients via a REST-API
+- Elaborate on how JSON or XML supports communication between subsystems, even when the subsystems are implemented on diﬀerent platforms.
 
 ### Practical part 
 (requires the script below in this document *+ gson
@@ -17,29 +15,22 @@ The starting point for this exercise is a pet hospital example database.
 The script sets up the database with the three tables sketched in this
 diagram, and data for different animals, owners and
 events
-![](media/image2.png)
+![](../media/image2.png)
 
 **Getting Started:**
+- Create a new NetBeans Web project as the starting point for this exercise
 
--   Create a new NetBeans Web project as the starting point for this
-    exercise
+- Execute the script *pethospital.sql* from MySQL Workbench, to setup the database
 
--   Execute the script *pethospital.sql* from MySQL Workbench, to setup
-    the database
+- Use the NetBeans Wizard to create a set of matching Entity-classes
 
--   Use the NetBeans Wizard to create a set of matching Entity-classes
+**Tasks** (All transfer of data between the API and Clients must be encapsulated in JSON)
 
-**Tasks**  (All transfer of data between the API and Clients must be
-encapsulated in JSON)
-
-1.  Implement a simple facade class with a method that will **return all
-    Pet**'s, and demonstrate the method
-2.  Implement a Rest service to **get the total Number of pets**
-    formatted like: {"petCount":4} (just call size() on the result from
+1.  Implement a simple facade class with a method that will **return all Pet**'s, and demonstrate the method
+2.  Implement a Rest service to **get the total Number of pets** formatted like: `{"petCount":4}` (just call `size() `on the result from
     the method above)
-3.  Use the method from 1) to implement a REST service to **get a
-    json-list of all pets**, with *id*, *name*, *birth, species* and the
-    *first\_name* and *last\_name* of the owner
+3.  Use the method from 1) to implement a REST service to **get a json-list of all pets**, with *id*, *name*, *birth, species* and the
+*first\_name* and *last\_name* of the owner
 
 Implement as many as you have time for of the following REST endpoints
 1.  Get a list of **all living pets**.

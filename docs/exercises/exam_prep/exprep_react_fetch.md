@@ -3,7 +3,7 @@
 
 ### General part
 
--   Describe the term Single Page Application and why it has become so popular for modern web-applications.
+- Describe the term Single Page Application and why it has become so popular for modern web-applications.
 
 - Explain the “recommended” React way of passing data into Components (at the top, or at the bottom or..)
 
@@ -12,14 +12,12 @@
 - Explain about the Observer pattern, and where you have used it, both with Java and JavaScript.
 
 ### Practical part
-
 Getting Started: Clone this project:
 [Here](https://github.com/Dat3SemStartCode/exprep_react_fetch.git)
 
-- Terminal from inside the projects root folder: Type **npm install** to fetch dependencies and **npm start** to
-execute. Open the project in your favourite IDE.
+- Terminal from inside the projects root folder: Type **npm install** to fetch dependencies and **npm start** to execute. Open the project in your favourite IDE.
 - In the *root* of the project, open a new terminal and type **npm run dataserver.** This will start a simple REST/JSON server, which you need for this exercise (leave this window open, and let the server run for the rest of the exercise). The server provides two endpoints which you need for the exercise (test in a browser):
-[*http://localhost:3333/labels*](http://localhost:3333/labels)  (Use this endpoint to generate the table headers for this exercise)
+[*http://localhost:3333/labels*](http://localhost:3333/labels) (Use this endpoint to generate the table headers for this exercise)
 [*http://localhost:3333/countries*](http://localhost:3333/countries) (Use this endpoint to generate table data for this exercise).
 
 The project is *a create-react-app* generated project. It simulates a

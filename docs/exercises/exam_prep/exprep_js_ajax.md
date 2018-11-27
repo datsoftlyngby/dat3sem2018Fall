@@ -1,5 +1,5 @@
 # JavaScript, DOM, JSON, AJAX and JPA
-![](media/image4.png)
+![](../media/image4.png)
 
 ### General part
 
@@ -27,8 +27,7 @@ file in a browser to see the provided layout for the exercise. Observe
 script-tag, in the bottom. Create this file (app.js) and place all your
 JavaScript in this file.
 
-**1)** You must use this public [*REST
-API*](https://github.com/thm/uinames/) to get data for the exercise:
+**1)** You must use this public [*REST API*](https://github.com/thm/uinames/) to get data for the exercise:
 
 Copy the link below into your browser and test. To get a feeling of how to use the API, try (as a minimum) to: remove *region*, change *gender* to *male*, remove *gender*, change *amount* to 600;
 
@@ -53,22 +52,19 @@ into the TextArea provided with the startcode.
 *Hint*: You can insert the SQL into the TextArea like this:
 `document.getElementById("sql").value = sql;`
 
-*If you have stored the data as requested in 3, and know how to use
-**map** and **join**, this should be relatively simple ;-)*
+*If you have stored the data as requested in 3, and know how to use **map** and **join**, this should be relatively simple*
 
 **5)** Using the generated SQL-script
 
-This steps assumes step 1-4 is complete (if not see hints at the
-bottom). Now lets create a JPA-application with an Entity class, which
+This steps assumes step 1-4 is complete (if not see hints at the bottom). Now lets create a JPA-application with an Entity class, which
 rows are populated from the script you get from step-4.
 
-Create a new plain Java Maven project. In this project create an Entity
-Class with properties matching those inserted into the script created in step4.
+Create a new plain Java Maven project. In this project create an Entity Class with properties matching those inserted into the script created in step4.
 
 **6)** In this project, create a file createData.sql in *the exact location* as
 sketched in this figure:
 
-![](media/folder_structure_sql.png)
+![](../media/folder_structure_sql.png)
 
 
 - Paste the Script, generated via the feature implemented in step-4, into this script.

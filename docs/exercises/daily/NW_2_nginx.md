@@ -1,82 +1,63 @@
----
-title: |
-    <span id="_umf8ixapjtu0" class="anchor"></span>Quick Setup on Digital
-    Ocean - Fall 2018
-...
+# Quick Setup on Digital Ocean - Fall 2018
 
-*You will probably find yourself in the situations that you often will
-have to setup a new Ubuntu Server. This repeats all steps from above,
-but without most of the explaining text to make if faster to use.*
+*You will probably find yourself in the situations that you often will have to setup a new Ubuntu Server. This repeats all steps from above, but without most of the explaining text to make if faster to use.*
 
 *Linux Help:* [**20 Top Most Used & Common SSH
 Commands**](http://www.servermom.org/top-most-used-common-ssh-commands/)
 
-Create a Droplet with a non-root user
--------------------------------------
+### Create a Droplet with a non-root user
 
 1.  Create a new Ubuntu Droplet on DigitalOcean.
-
 2.  Select Frankfurt as *datacenter region*
+3.  Copy your public key into the clipboard. Select "New SSH Key" and paste your key into the TextArea. If you have done this before, you probably already have uploaded a key. Select this key
 
-3.  Copy your public key into the clipboard. Select "New SSH Key" and
-    > paste your key into the TextArea. If you have done this before,
-    > you probably already have uploaded a key. Select this key
-
-#### Initial Server Setup (Replace text in **red** below with your own values)
+#### Initial Server Setup (Replace text in **brackets [ ]** below with your own values)
 
 -   Open a batch-terminal (git bash on Windows)
 
--   Log into your server: **ssh root@SERVER\_IP\_ADDRESS**
+-   Log into your server: **`ssh root@[SERVER_IP_ADDRESS]`**
 
--   Create a New User: **adduser sammy** (answer questions, starting
-    > with the account password)
+-   Create a New User: **adduser [sammy]** (answer questions, starting with the account password)
 
 #### Add Root Privileges to the new user
-
-As root, run this to add your new user to the *sudo* group: **usermod
--aG sudo sammy**
+As root, run this to add your new user to the *sudo* group: `usermod -aG sudo [sammy]`
 
 #### Add Public Key Authentication for the New User (Install the key)
 
 *On your laptop*: Copy the key into the clipboard (start Git Gui, press
 help-&gt;Show SSH key)
 
-*On the server*: as the **root** user, enter the following command to
-temporarily switch to the new user
+*On the server*: as the **root** user, enter the following command to temporarily switch to the new user
 
-> **su – Sammy** (now you will be in your new user's home cldirectory)
+**su – [Sammy]** (now you will be in your new user's home cldirectory)
 
 Create a new directory called .ssh and restrict its permissions with the
 following commands:
 
-**mkdir \~/.ssh**
-
-**chmod 700 \~/.ssh**
-
-**(Hint: 4 = read, 2 = write, 1 = execute, 4+2+1 = read+write+execute)**
+**mkdir \~/.ssh**  
+**chmod 700 \~/.ssh**  
+(Hint: 4 = read, 2 = write, 1 = execute, 4+2+1 = read+write+execute)
 
 Now open a file in .ssh called authorized\_keys with the nano-text
 editor:
 
 **nano \~/.ssh/authorized\_keys**
 
--   Paste your public key (which should be in your clipboard) into
-    > the editor.
+-   Paste your public key (which should be in your clipboard) into the editor.
 
--   Hit CTRL-x to exit the file, then y to save the changes that you
-    > made, and then ENTER to confirm
+-   Hit CTRL-x to exit the file, then y to save the changes that you made, and then ENTER to confirm
 
 Restrict the permissions of the *authorized\_keys* file: **chmod 600
 \~/.ssh/authorized\_keys**
 
-**(Hint: 4 = read, 2 = write, 4+2 = read+write)**
+(Hint: 4 = read, 2 = write, 4+2 = read+write)
 
 Type **exit** to return to the root user:
 
 #### Test Log In
 
 In a new terminal, log in to your server using the new account: **ssh
-sammy@SERVER\_IP\_ADDRESS**
+[sammy]@[SERVER\_IP\_ADDRESS]**
 
 Swap-file
 ---------
@@ -101,37 +82,26 @@ If you only feel like paying for one droplet (which is OK, especially if
 you are using a swap-file), install MySQL now, using instructions given
 elsewhere.
 
-\
--
 
-Setup Tomcat
-------------
+## Setup Tomcat
 
-The following description is a simplified way of setting up Tomcat,
-compared to this document:
+The following description is a simplified way of setting up Tomcat, compared to this document:
 
 [*https://www.digitalocean.com/community/tutorials/how-to-install-apache-tomcat-8-on-ubuntu-16-04*](https://www.digitalocean.com/community/tutorials/how-to-install-apache-tomcat-8-on-ubuntu-16-04)
 
 Logon to your Droplet, using a non-root user with sudo-privileges
 
 #### Install Java
-
-sudo apt-get update (apt-get update && apt-get upgrade)
-
-sudo apt-get install default-jdk
+`sudo apt-get update (apt-get update && apt-get upgrade)`
+`sudo apt-get install default-jdk`
 
 #### Install Tomcat 
+`apt-get install tomcat8 tomcat8-admin`
+`apt-get install haveged`
 
-apt-get install tomcat8 tomcat8-admin
-
-apt-get install haveged
-
---------------- Info From the Tomcat Install Process --------------
-
-Creating config file /etc/default/tomcat8 with new version
-
-Adding system user \`tomcat8' (UID 112) ...
-
+Info From the Tomcat Install Process:
+`Creating config file /etc/default/tomcat8 with new version`  
+`Adding system user \`tomcat8' (UID 112) ...`
 Adding new user \`tomcat8' (UID 112) with group \`tomcat8' ...
 
 ---------------------------------------------------------------------------------
@@ -142,8 +112,7 @@ Adding new user \`tomcat8' (UID 112) with group \`tomcat8' ...
 
 > nano /etc/tomcat8/tomcat-users.xml
 
-1.  Insert the following after line 21 in the file – *please use your
-    > own password*!
+1.  Insert the following after line 21 in the file – *please use your own password*!
 
 > &lt;role rolename="manager-gui"/&gt;
 >
@@ -159,7 +128,7 @@ sudo setfacl -m u:XXX:rwx /var/lib/tomcat8/logs
 
 remember to replace “XXX” with your own user name.
 
-lTest that you can access your Tomcat Installation:
+Test that you can access your Tomcat Installation:
 
 Your IP :8080
 
@@ -206,15 +175,11 @@ Ref:
 
 #### Prerequisites
 
--   A droplet with a non-root sudo user + Tomcat installed as described
-    > earlier in this document.
+-   A droplet with a non-root sudo user + Tomcat installed as described earlier in this document.
 
--   You must have purchased a Registered Domain Name (i.e.
-    > mycoolDomainName.dk).
+-   You must have purchased a Registered Domain Name (i.e. mycoolDomainName.dk).
 
--   You can do this many places. For a dk-domain, this is just one of
-    > many options:
-    > [*https://www.dandomain.dk/domain/domain-soeg*](https://www.dandomain.dk/domain/domain-soeg)
+-   You can do this many places. For a dk-domain, this is just one of many options: [*https://www.dandomain.dk/domain/domain-soeg*](https://www.dandomain.dk/domain/domain-soeg)
 
 You only need to buy the domain name, NOT a web-hotel, we are using
 Digital Ocean.
@@ -484,8 +449,7 @@ When you get to this part you will be asked a number of questions:
 
 -   A list of (your) domain names to activate HTTPS for?
 
--   Whether or not to redirect HTTP traffic to HTTPS, removing HTTP
-    > access completely (select redirect)
+-   Whether or not to redirect HTTP traffic to HTTPS, removing HTTP access completely (select redirect)
 
 Automatic renewal
 -----------------
