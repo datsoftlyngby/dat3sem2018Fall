@@ -9,7 +9,7 @@
 
 [Studypoints](https://studypoints.dk/)
 
-[Alle øvelser her](exercises/README.md)
+[Alle øvelser og tutorials her](exercises/README.md)
 
 #### Skema med links til læringsmaterialet
 
@@ -34,7 +34,7 @@
 |       11 | 5-11-2018  | [React routing and native](Modul3/React2/README.md) |
 |       12 | 12-11-2018  | [CA3](https://docs.google.com/document/d/1GZvVK-dGHjyP30BULhtRz9EFYd9MOzdtChoV6X_mRnQ/edit?usp=sharing) |
 |          | **Module 5** | **Projekt**    |
-|       13 | 19-11-2018  | Project |
+|       13 | 19-11-2018  | [Project](Modul5/) |
 |       15 | 26-11-2018  | Project |
 |       16 | 03-12-2018  | Project|
 |       17 | 10-12-2018  | SYS  |
