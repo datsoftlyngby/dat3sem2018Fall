@@ -48,11 +48,14 @@
 
 
 #### React2
+
 - [Day 1: routing](daily/REACT_W2D1_ROUTER_1.md) AND  [Day 1: extra](daily/REACT_W2D1_ROUTER_2.md)
 - [Day 2: security](daily/REACT_W2D2_Security.md)
 - [Day 3: native](daily/REACT_W2D3_Native.md)
 - [Day 4: more native](daily/REACT_W2D4_more_native.md)
+
 #### Collection of all Exam preparation exercises:  
+
 1. [Threads 1: Threads and sockets](exam_prep/exprep_threads_socket.md)  
 2. [Threads 2: Producer Consumer pattern](exam_prep/exprep_threads_prod_cons.md)
 3. [ORM 1](exam_prep/exprep_jpa1.md)  
