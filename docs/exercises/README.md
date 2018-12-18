@@ -71,3 +71,4 @@
 ## Tutorials
 1. [Setup Everything on Digital Ocean](https://docs.google.com/document/d/1bDjWf_Y39p9lLMRxUD1a_dg2DwwCYPhk0w2ryQFcnJw/edit?usp=sharing)
 2. [Deploying  Single Page Applications](https://docs.google.com/document/d/18mHv36MGK-tFoVXM7-4dXKlURrpbbiOQm4xvWW8iXew/edit?usp=sharing)
+3. [MYSQL8 -> REVERSE JPA (LOWER CASE FIX)](https://docs.google.com/document/d/1cck30sMI-D2PBqgnWrNulAPk85HhhikLNRxHEE5fgrM/edit?usp=sharing)
