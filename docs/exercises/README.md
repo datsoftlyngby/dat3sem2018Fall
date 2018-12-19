@@ -38,7 +38,7 @@
 #### JS
 - [Day 1: callbacks](daily/JS_M2_D1_callbacks.md)
 - [Day 2: ajax](https://docs.google.com/document/d/1PmMnypoxd2LrhtiYp7EK02XKvWrhQimTUvVdYVRx_Ps/edit?usp=sharing)
-- [Day 3: CORS](daily/JS_M2_D3_CORS.md)
+- [Day 3: CORS](https://docs.google.com/document/d/1SldeRRWYiwtqt-TtjjKB09Hk42BASiv-hyoWhKBadpA/edit?usp=sharing)
 
 #### React1
 - [Day 1: react begin](daily/REACT_W1D1_ES6.md)
