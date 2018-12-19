@@ -41,7 +41,7 @@
 - [Day 3: CORS](https://docs.google.com/document/d/1SldeRRWYiwtqt-TtjjKB09Hk42BASiv-hyoWhKBadpA/edit?usp=sharing)
 
 #### React1
-- [Day 1: react begin](daily/REACT_W1D1_ES6.md)
+- [Day 1: react begin](https://docs.google.com/document/d/1TsqQdtjqylsTo2yU5X5YIJJx0IoZ13_HrFI6LW3I43M/edit?usp=sharing)
 - [Day 2: state](daily/REACT_W1D2_KiloPound_Converter.md) AND [Day 2 extra](daily/REACT_W1D2_photogallery.md)
 - [Day 3: fetch and CRUD](daily/REACT_W1D3_fetch.md) AND [Day 3: extra](daily/REACT_W1D3_CRUD.md)  
 - [Day 4: pagination](daily/REACT_W1D4_Large_data.md)
